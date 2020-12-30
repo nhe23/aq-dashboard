@@ -23,7 +23,7 @@
   }
 
   .box{
-    background-color: #f5f5f5;
+    background-color: #e8eef3;
   }
 </style>
 
@@ -35,7 +35,7 @@
           {#each header.keys as key}
             <div class="headerField" on:click={() => sort(key.internalName)}>
               <span>{key.name}</span>
-              <span class="icon is-small has-text-primary sortIcon">
+              <span class="icon is-small has-text-link sortIcon">
                 <i class="fas fa-sort" />
               </span>
             </div>

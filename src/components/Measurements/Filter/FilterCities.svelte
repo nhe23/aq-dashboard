@@ -64,6 +64,10 @@
   .citiesInput {
     width: 243px;
   }
+
+  input {
+    background-color: transparent;
+  }
 </style>
 
 <div

@@ -14,7 +14,6 @@
   .tag {
     margin: 5px;
     cursor: pointer;
-    background-color: #ececec;
   }
 
   .headerField {
@@ -28,7 +27,7 @@
   }
 
   .box{
-    background-color: #f5f5f5;
+    background-color: #e8eef3;
   }
 
   .tags {
@@ -42,11 +41,11 @@
   <div on:click={toogleTags} class="headerField">
     <div class="headerText">Sort by</div>
     {#if showTags}
-      <span class="icon is-small has-text-primary sortIcon">
+      <span class="icon is-small has-text-link sortIcon">
         <i class="fas fa-chevron-up" />
       </span>
     {:else}
-      <span class="icon is-small has-text-primary sortIcon"><i
+      <span class="icon is-small has-text-link sortIcon"><i
           class="fas fa-chevron-down" /></span>
     {/if}
   </div>
@@ -56,7 +55,7 @@
         {#each header.keys as key}
           <div class="headerField tag" on:click={() => sort(key.internalName)}>
             <span>{key.name}</span>
-            <span class="icon is-small has-text-primary sortIcon">
+            <span class="icon is-small has-text-link sortIcon">
               <i class="fas fa-sort" />
             </span>
           </div>

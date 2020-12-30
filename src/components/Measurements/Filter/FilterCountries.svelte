@@ -80,7 +80,7 @@
 <div class="dropdown header" class:is-active={showCountries}>
   <div class="dropdown-trigger">
     <button
-      class="button"
+      class="button is-link"
       aria-haspopup="true"
       aria-controls="dropdown-menu-countries"
       on:click={() => {

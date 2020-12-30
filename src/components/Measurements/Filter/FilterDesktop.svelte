@@ -7,7 +7,7 @@
   .box {
     margin: 0px 10px;
     height: fit-content;
-    background-color: #f5f5f5;
+    background-color: #e8eef3;
     position: sticky;
     top: 0;
     z-index: 2;

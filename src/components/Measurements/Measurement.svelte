@@ -29,7 +29,7 @@
   }
 
   .index2{
-    border-right: 10px solid greenyellow;
+    border-right: 10px solid rgb(61, 179, 32);
   }
 
   .index3{

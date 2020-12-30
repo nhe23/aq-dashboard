@@ -12,7 +12,7 @@
 <style>
   .box {
     height: fit-content;
-    background-color: #f5f5f5;
+    background-color: #e8eef3;
     margin-bottom: 10px;
   }
 
@@ -41,11 +41,11 @@
   <div on:click={toggleShowFilter} class="headerField">
     <div class="headerText">Filter by</div>
     {#if showFilter}
-      <span class="icon is-small has-text-primary sortIcon">
+      <span class="icon is-small has-text-link sortIcon">
         <i class="fas fa-chevron-up" />
       </span>
     {:else}
-      <span class="icon is-small has-text-primary sortIcon"><i
+      <span class="icon is-small has-text-link sortIcon"><i
           class="fas fa-chevron-down" /></span>
     {/if}
   </div>
