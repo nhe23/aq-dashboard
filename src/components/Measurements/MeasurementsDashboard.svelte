@@ -1,6 +1,6 @@
 <script lang="ts">
   import MeasurementsList from "./MeasurementsList.svelte";
-  import Filter from "./Filter/Filter.svelte"
+  import FilterDesktop from "./Filter/FilterDesktop.svelte"
 </script>
 
 <style>
@@ -12,7 +12,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <Filter />
+      <FilterDesktop />
       <MeasurementsList />
     </div>
   </div>

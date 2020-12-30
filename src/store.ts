@@ -5,7 +5,7 @@ export interface IFilter {
   value: string
 }
 
-const filterDefault:IFilter ={
+export const filterDefault:IFilter ={
   key: null,
   value: ""
 }

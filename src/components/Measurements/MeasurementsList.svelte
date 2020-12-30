@@ -92,6 +92,7 @@
               value: m.value,
               lastUpdated: m.lastUpdated,
               unit: m.unit,
+              qualityIndex: m.qualityIndex,
             };
           }),
         ];

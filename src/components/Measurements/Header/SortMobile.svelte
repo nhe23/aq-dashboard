@@ -14,6 +14,7 @@
   .tag {
     margin: 5px;
     cursor: pointer;
+    background-color: #ececec;
   }
 
   .headerField {
@@ -22,33 +23,45 @@
     justify-content: center;
   }
 
-  .headerText{
-    margin-right: 5px
+  .headerText {
+    margin-right: 5px;
+  }
+
+  .box{
+    background-color: #f5f5f5;
+  }
+
+  .tags {
+    border-top:1px solid #dddddd;
+    margin-top:15px;
+    padding-top:15px;
   }
 </style>
 
-<div on:click={toogleTags} class="headerField">
-  <div class="headerText">Sort by</div>
+<div class="box">
+  <div on:click={toogleTags} class="headerField">
+    <div class="headerText">Sort by</div>
+    {#if showTags}
+      <span class="icon is-small has-text-primary sortIcon">
+        <i class="fas fa-chevron-up" />
+      </span>
+    {:else}
+      <span class="icon is-small has-text-primary sortIcon"><i
+          class="fas fa-chevron-down" /></span>
+    {/if}
+  </div>
   {#if showTags}
-    <span class="icon is-small has-text-primary sortIcon">
-      <i class="fas fa-chevron-up" />
-    </span>
-  {:else}
-    <span class="icon is-small has-text-primary sortIcon"><i
-        class="fas fa-chevron-down" /></span>
+    <div class="is-flex is-flex-wrap-wrap tags">
+      {#each measurmentsKeys as header}
+        {#each header.keys as key}
+          <div class="headerField tag" on:click={() => sort(key.internalName)}>
+            <span>{key.name}</span>
+            <span class="icon is-small has-text-primary sortIcon">
+              <i class="fas fa-sort" />
+            </span>
+          </div>
+        {/each}
+      {/each}
+    </div>
   {/if}
 </div>
-{#if showTags}
-  <div class="is-flex is-flex-wrap-wrap">
-    {#each measurmentsKeys as header}
-      {#each header.keys as key}
-        <div class="headerField tag" on:click={() => sort(key.internalName)}>
-          <span>{key.name}</span>
-          <span class="icon is-small has-text-primary sortIcon">
-            <i class="fas fa-sort" />
-          </span>
-        </div>
-      {/each}
-    {/each}
-  </div>
-{/if}

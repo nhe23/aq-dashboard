@@ -1,6 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
   import type { Columns } from "../../../types";
+  import FilterMobile from "../Filter/FilterMobile.svelte";
   import SortDesktop from "./SortDesktop.svelte";
   import SortMobile from "./SortMobile.svelte";
   export let measurmentsKeys: Array<Columns>;
@@ -16,22 +17,23 @@
 </script>
 
 <style>
-  .headerBox {
+  .header {
     position: sticky;
     top: 0;
     z-index: 2;
-  }
-
-  .box{
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    margin-bottom: 15px;
   }
 </style>
 
-<div class="box headerBox">
+<div class="header">
   <div class="hidden-mobile">
     <SortDesktop {measurmentsKeys} {sort} />
   </div>
   <div class="hidden-desktop">
+    <div class="is-hidden-tablet">
+      <FilterMobile />
+    </div>
     <SortMobile {measurmentsKeys} {sort} />
   </div>
 </div>

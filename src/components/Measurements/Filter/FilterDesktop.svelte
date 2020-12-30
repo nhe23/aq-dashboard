@@ -18,7 +18,7 @@
   }
 </style>
 
-<div class="box is-flex is-flex-direction-column">
+<div class="box is-flex is-flex-direction-column is-hidden-mobile">
   <div class="header is-flex is-flex-direction-column">
     <span class="is-size-5 header">Filter By</span>
     <span class="is-size-6 header">Country</span>

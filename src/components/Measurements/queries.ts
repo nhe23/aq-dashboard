@@ -14,6 +14,7 @@ export const LOCATION_RESULTS = gql`
         value
         lastUpdated
         unit
+        qualityIndex
       }
       coordinates {
         latitude
@@ -36,6 +37,7 @@ query($city: String!, $after: String!) {
       value
       lastUpdated
       unit
+      qualityIndex
     }
     coordinates {
       latitude
@@ -58,6 +60,7 @@ query($country: String!, $after: String!) {
       value
       lastUpdated
       unit
+      qualityIndex
     }
     coordinates {
       latitude

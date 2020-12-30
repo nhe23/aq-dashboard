@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
   import gql from "graphql-tag";
   import { client } from "../../../apollo";
   import { query } from "svelte-apollo";
-  import { filterStore } from "../../../store";
+  import { filterStore,filterDefault } from "../../../store";
 
   let initialSelected = { name: "All", code: "xx" };
   let selected = initialSelected;
@@ -24,7 +24,9 @@
 
   function select(result) {
     selected = result;
-    filterStore.set({ key: "country", value: selected.code });
+    if (result.name !== "All")
+      filterStore.set({ key: "country", value: selected.code });
+    else filterStore.set(filterDefault)
     showCountries = false;
   }
 
@@ -43,8 +45,14 @@
   }
 
   onMount(async () => {
+    console.log("mount")
     await fetchCountries();
+    queryCountries.unshift(initialSelected);
   });
+
+  onDestroy(() => {
+    queryCountries.shift()
+  })
 
   filterStore.subscribe((f) => {
     if (f.key !== "country") {
