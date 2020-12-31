@@ -5,9 +5,10 @@
 
 <style>
   .box {
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
     height: fit-content;
     background-color: #e8eef3;
+    /* margin: 0 10px; */
     position: sticky;
     top: 0;
     z-index: 2;

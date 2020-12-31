@@ -1,6 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
   import type { Columns } from "../../../types";
+  import Description from "../Description.svelte";
   import FilterMobile from "../Filter/FilterMobile.svelte";
   import SortDesktop from "./SortDesktop.svelte";
   import SortMobile from "./SortMobile.svelte";
@@ -24,6 +25,10 @@
     background-color: #ffffff;
     margin-bottom: 15px;
   }
+
+  .description {
+    margin-bottom:15px;
+  }
 </style>
 
 <div class="header">
@@ -36,4 +41,7 @@
     </div>
     <SortMobile {measurmentsKeys} {sort} />
   </div>
+</div>
+<div class="is-hidden-tablet description">
+  <Description />
 </div>

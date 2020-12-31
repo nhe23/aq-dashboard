@@ -62,6 +62,14 @@
 </script>
 
 <style>
+
+  .dropdown-trigger {
+    width:100%
+  }
+
+  .button {
+    width:100%
+  }
   .dropdown-content {
     max-height: 250px;
     overflow-y: scroll;

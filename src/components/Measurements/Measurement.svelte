@@ -29,11 +29,11 @@
   }
 
   .index2{
-    border-right: 10px solid rgb(61, 179, 32);
+    border-right: 10px solid #48c774;
   }
 
   .index3{
-    border-right: 10px solid yellow;
+    border-right: 10px solid #f9dd57;
   }
 
   .index4{
@@ -45,7 +45,7 @@
   }
 
   .index6{
-    border-right: 10px solid red;
+    border-right: 10px solid #f14668;
   }
 
   .desktopContainer{

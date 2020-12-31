@@ -62,9 +62,12 @@
   }
 
   .citiesInput {
-    width: 243px;
+    width: 100%;
   }
 
+  .dropdown-trigger {
+    width:100%
+  }
   input {
     background-color: transparent;
   }

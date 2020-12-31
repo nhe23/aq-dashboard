@@ -1,5 +1,6 @@
 <script lang="ts">
   import { fade } from "svelte/transition";
+  import { navigate } from "svelte-routing";
   import Nature from "./IllustrationComponents/Nature.svelte";
   let h = 0;
   let w = 0;
@@ -10,7 +11,7 @@
 <style>
   .sectionContainer {
     background-color: var(--theme-primary);
-    flex:1;
+    flex: 1;
   }
   section {
     display: flex;
@@ -26,6 +27,7 @@
     justify-content: center;
     color: var(--theme-background);
     z-index: 2;
+    margin: 15px;
   }
   @media only screen and (min-width: 720px) {
     .description {
@@ -75,18 +77,20 @@
   .primaryButton {
     background-color: var(--theme-secondary);
     color: var(--theme-textColorPrimary);
-    border-radius: 20px;
-    padding: 5px 35px;
     width: fit-content;
     margin-top: 20px;
-    align-self: center;
     font-size: 20px;
   }
+  .primaryButton:hover {
+    color: var(--theme-textColorPrimary);
+  }
 
-  a,
-  a:hover,
-  a:visited {
-    text-decoration: none;
+  .button {
+    border-color: var(--theme-secondary);
+  }
+
+  .button:active {
+    background-color: #f63c61;
   }
 
   #triangle {
@@ -106,6 +110,12 @@
     .illustration {
       display: none;
     }
+    .illustrationContainer {
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 </style>
 
@@ -120,17 +130,23 @@
       xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0L{triangleWidth} {triangleHeight}H0V0Z" fill="#1A64D4" />
     </svg>
-    <div class="illustrationContainer">
-      <Nature sizeFactor={0.75} />
-    </div>
   </div>
-
+  <div class="illustrationContainer">
+    {#if triangleWidth < 360}
+      <Nature sizeFactor={0.4} />
+    {:else}
+      <Nature sizeFactor={0.75} />
+    {/if}
+  </div>
   <section>
     <div in:fade class="description">
-      <h1>Build</h1>
-      <h1 class="outstanding">outstanding</h1>
-      <h2>Web Applications</h2>
-      <a href="#contact"><button class="primaryButton">Let's create</button></a>
+      <span class="is-size-2">Air pollution will influence </span>
+      <span class="is-size-2">the quality of our future.</span>
+      <span class="is-size-4">This is why AirPoll strives to</span>
+      <span class="is-size-4">bring transparency to this issue</span>
+      <button
+        class="primaryButton button is-rounded"
+        on:click={() => navigate('/dashboard')}>Let's see the data</button>
     </div>
   </section>
 </div>

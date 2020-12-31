@@ -24,12 +24,6 @@
     /* display: flex;
     align-items: center; */
   }
-
-  .logoText{
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
   .navigation{
     display: flex;
     flex-direction: column;
@@ -37,12 +31,6 @@
 
   img {
     height: 100%;
-  }
-  a,
-  a:hover,
-  a:visited {
-    text-decoration: none;
-    color:#1e77fd
   }
 </style>
 

@@ -9807,43 +9807,43 @@ var app = (function () {
     			div12 = element("div");
     			t32 = text("Last updated ");
     			t33 = text(t33_value);
-    			add_location(span0, file$1, 57, 29, 954);
-    			attr_dev(div0, "class", "column is-2 svelte-astsdv");
-    			add_location(div0, file$1, 57, 4, 929);
-    			add_location(span1, file$1, 59, 6, 1061);
-    			add_location(span2, file$1, 59, 32, 1087);
-    			attr_dev(div1, "class", "column is-2 is-flex is-flex-direction-column  svelte-astsdv");
-    			add_location(div1, file$1, 58, 4, 995);
-    			add_location(span3, file$1, 61, 30, 1158);
-    			attr_dev(div2, "class", "column is-2  svelte-astsdv");
-    			add_location(div2, file$1, 61, 4, 1132);
-    			add_location(span4, file$1, 62, 30, 1226);
-    			attr_dev(div3, "class", "column is-2  svelte-astsdv");
-    			add_location(div3, file$1, 62, 4, 1200);
-    			add_location(span5, file$1, 64, 6, 1342);
-    			add_location(span6, file$1, 65, 6, 1380);
-    			attr_dev(div4, "class", "column is-2 is-flex is-flex-direction-column svelte-astsdv");
-    			add_location(div4, file$1, 63, 4, 1277);
-    			add_location(span7, file$1, 67, 30, 1452);
-    			attr_dev(div5, "class", "column is-2  svelte-astsdv");
-    			add_location(div5, file$1, 67, 4, 1426);
+    			add_location(span0, file$1, 57, 29, 950);
+    			attr_dev(div0, "class", "column is-2 svelte-9a7uol");
+    			add_location(div0, file$1, 57, 4, 925);
+    			add_location(span1, file$1, 59, 6, 1057);
+    			add_location(span2, file$1, 59, 32, 1083);
+    			attr_dev(div1, "class", "column is-2 is-flex is-flex-direction-column  svelte-9a7uol");
+    			add_location(div1, file$1, 58, 4, 991);
+    			add_location(span3, file$1, 61, 30, 1154);
+    			attr_dev(div2, "class", "column is-2  svelte-9a7uol");
+    			add_location(div2, file$1, 61, 4, 1128);
+    			add_location(span4, file$1, 62, 30, 1222);
+    			attr_dev(div3, "class", "column is-2  svelte-9a7uol");
+    			add_location(div3, file$1, 62, 4, 1196);
+    			add_location(span5, file$1, 64, 6, 1338);
+    			add_location(span6, file$1, 65, 6, 1376);
+    			attr_dev(div4, "class", "column is-2 is-flex is-flex-direction-column svelte-9a7uol");
+    			add_location(div4, file$1, 63, 4, 1273);
+    			add_location(span7, file$1, 67, 30, 1448);
+    			attr_dev(div5, "class", "column is-2  svelte-9a7uol");
+    			add_location(div5, file$1, 67, 4, 1422);
     			attr_dev(div6, "class", "columns");
-    			add_location(div6, file$1, 56, 2, 903);
-    			attr_dev(div7, "class", div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-astsdv");
-    			add_location(div7, file$1, 55, 0, 819);
-    			add_location(span8, file$1, 72, 25, 1594);
+    			add_location(div6, file$1, 56, 2, 899);
+    			attr_dev(div7, "class", div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-9a7uol");
+    			add_location(div7, file$1, 55, 0, 815);
+    			add_location(span8, file$1, 72, 25, 1590);
     			attr_dev(div8, "class", "is-size-4");
-    			add_location(div8, file$1, 72, 2, 1571);
+    			add_location(div8, file$1, 72, 2, 1567);
     			attr_dev(div9, "class", "is-size-5");
-    			add_location(div9, file$1, 73, 2, 1633);
+    			add_location(div9, file$1, 73, 2, 1629);
     			attr_dev(div10, "class", "is-size-6");
-    			add_location(div10, file$1, 74, 2, 1698);
+    			add_location(div10, file$1, 74, 2, 1694);
     			attr_dev(div11, "class", "is-size-6");
-    			add_location(div11, file$1, 75, 2, 1777);
+    			add_location(div11, file$1, 75, 2, 1773);
     			attr_dev(div12, "class", "is-size-6");
-    			add_location(div12, file$1, 80, 2, 1882);
-    			attr_dev(div13, "class", div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-astsdv");
-    			add_location(div13, file$1, 71, 0, 1509);
+    			add_location(div12, file$1, 80, 2, 1878);
+    			attr_dev(div13, "class", div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-9a7uol");
+    			add_location(div13, file$1, 71, 0, 1505);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -9918,7 +9918,7 @@ var app = (function () {
     			if (dirty & /*result*/ 1 && t12_value !== (t12_value = /*result*/ ctx[0].latitude + "")) set_data_dev(t12, t12_value);
     			if (dirty & /*result*/ 1 && t14_value !== (t14_value = /*result*/ ctx[0].lastUpdated + "")) set_data_dev(t14, t14_value);
 
-    			if (dirty & /*result*/ 1 && div7_class_value !== (div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-astsdv")) {
+    			if (dirty & /*result*/ 1 && div7_class_value !== (div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-9a7uol")) {
     				attr_dev(div7, "class", div7_class_value);
     			}
 
@@ -9932,7 +9932,7 @@ var app = (function () {
     			if (dirty & /*result*/ 1 && t30_value !== (t30_value = /*result*/ ctx[0].latitude + "")) set_data_dev(t30, t30_value);
     			if (dirty & /*result*/ 1 && t33_value !== (t33_value = /*result*/ ctx[0].lastUpdated + "")) set_data_dev(t33, t33_value);
 
-    			if (dirty & /*result*/ 1 && div13_class_value !== (div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-astsdv")) {
+    			if (dirty & /*result*/ 1 && div13_class_value !== (div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-9a7uol")) {
     				attr_dev(div13, "class", div13_class_value);
     			}
     		},
@@ -10009,6 +10009,88 @@ var app = (function () {
 
     	set result(value) {
     		throw new Error("<Measurement>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+    }
+
+    /* src/components/Measurements/Description.svelte generated by Svelte v3.31.0 */
+
+    const file$2 = "src/components/Measurements/Description.svelte";
+
+    function create_fragment$4(ctx) {
+    	let div;
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "This list shows the latest air quality data that our database\n    provides. The color on the right side indicates the quality index.";
+    			attr_dev(i, "class", "fas fa-info-circle");
+    			add_location(i, file$2, 9, 4, 192);
+    			attr_dev(span0, "class", "icon is-small has-text-link svelte-11kd2cy");
+    			add_location(span0, file$2, 8, 2, 145);
+    			add_location(span1, file$2, 11, 2, 237);
+    			attr_dev(div, "class", "box description is-flex is-flex-direction-column");
+    			add_location(div, file$2, 7, 0, 80);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, span0);
+    			append_dev(span0, i);
+    			append_dev(div, t0);
+    			append_dev(div, span1);
+    		},
+    		p: noop,
+    		i: noop,
+    		o: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$4.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function instance$4($$self, $$props) {
+    	let { $$slots: slots = {}, $$scope } = $$props;
+    	validate_slots("Description", slots, []);
+    	const writable_props = [];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Description> was created with unknown prop '${key}'`);
+    	});
+
+    	return [];
+    }
+
+    class Description extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+    		init(this, options, instance$4, create_fragment$4, safe_not_equal, {});
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "Description",
+    			options,
+    			id: create_fragment$4.name
+    		});
     	}
     }
 
@@ -12821,7 +12903,7 @@ var app = (function () {
     /* src/components/Measurements/Filter/FilterCities.svelte generated by Svelte v3.31.0 */
 
     const { console: console_1 } = globals;
-    const file$2 = "src/components/Measurements/Filter/FilterCities.svelte";
+    const file$3 = "src/components/Measurements/Filter/FilterCities.svelte";
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -12829,7 +12911,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (106:6) {:else}
+    // (109:6) {:else}
     function create_else_block$1(ctx) {
     	let each_1_anchor;
     	let each_value = /*queryCities*/ ctx[3];
@@ -12916,14 +12998,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(106:6) {:else}",
+    		source: "(109:6) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (103:22) 
+    // (106:22) 
     function create_if_block_1$1(ctx) {
     	let t0;
     	let t1;
@@ -12950,14 +13032,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$1.name,
     		type: "if",
-    		source: "(103:22) ",
+    		source: "(106:22) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (101:6) {#if loading}
+    // (104:6) {#if loading}
     function create_if_block$1(ctx) {
     	let t;
 
@@ -12978,14 +13060,14 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(101:6) {#if loading}",
+    		source: "(104:6) {#if loading}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (113:8) {:else}
+    // (116:8) {:else}
     function create_else_block_1(ctx) {
     	let div;
 
@@ -12994,7 +13076,7 @@ var app = (function () {
     			div = element("div");
     			div.textContent = "No cities found";
     			attr_dev(div, "class", "dropdown-item");
-    			add_location(div, file$2, 113, 10, 3279);
+    			add_location(div, file$3, 116, 10, 3319);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13008,14 +13090,14 @@ var app = (function () {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(113:8) {:else}",
+    		source: "(116:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:8) {#each queryCities as result}
+    // (110:8) {#each queryCities as result}
     function create_each_block(ctx) {
     	let div;
     	let t0_value = /*result*/ ctx[15].name + "";
@@ -13033,8 +13115,8 @@ var app = (function () {
     			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(div, "class", "dropdown-item selectable svelte-1i4boy5");
-    			add_location(div, file$2, 107, 10, 3111);
+    			attr_dev(div, "class", "dropdown-item selectable svelte-nofno8");
+    			add_location(div, file$3, 110, 10, 3151);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13061,14 +13143,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(107:8) {#each queryCities as result}",
+    		source: "(110:8) {#each queryCities as result}",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$4(ctx) {
+    function create_fragment$5(ctx) {
     	let div5;
     	let div2;
     	let div1;
@@ -13101,25 +13183,25 @@ var app = (function () {
     			div4 = element("div");
     			div3 = element("div");
     			if_block.c();
-    			attr_dev(input, "class", "input citiesInput svelte-1i4boy5");
+    			attr_dev(input, "class", "input citiesInput svelte-nofno8");
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", /*placeholder*/ ctx[6]);
-    			add_location(input, file$2, 85, 8, 2531);
+    			add_location(input, file$3, 88, 8, 2571);
     			attr_dev(div0, "class", "control");
-    			add_location(div0, file$2, 84, 6, 2501);
+    			add_location(div0, file$3, 87, 6, 2541);
     			attr_dev(div1, "class", "field");
-    			add_location(div1, file$2, 83, 4, 2475);
-    			attr_dev(div2, "class", "dropdown-trigger");
-    			add_location(div2, file$2, 82, 2, 2440);
-    			attr_dev(div3, "class", "dropdown-content citiesInput svelte-1i4boy5");
-    			add_location(div3, file$2, 99, 4, 2895);
+    			add_location(div1, file$3, 86, 4, 2515);
+    			attr_dev(div2, "class", "dropdown-trigger svelte-nofno8");
+    			add_location(div2, file$3, 85, 2, 2480);
+    			attr_dev(div3, "class", "dropdown-content citiesInput svelte-nofno8");
+    			add_location(div3, file$3, 102, 4, 2935);
     			attr_dev(div4, "class", "dropdown-menu");
     			attr_dev(div4, "id", "dropdown-menu3");
     			attr_dev(div4, "role", "menu");
-    			add_location(div4, file$2, 98, 2, 2831);
+    			add_location(div4, file$3, 101, 2, 2871);
     			attr_dev(div5, "class", "dropdown header");
     			toggle_class(div5, "is-active", /*showCities*/ ctx[0] && /*searchString*/ ctx[4] !== "");
-    			add_location(div5, file$2, 79, 0, 2352);
+    			add_location(div5, file$3, 82, 0, 2392);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -13180,7 +13262,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$4.name,
+    		id: create_fragment$5.name,
     		type: "component",
     		source: "",
     		ctx
@@ -13189,7 +13271,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$4($$self, $$props, $$invalidate) {
+    function instance$5($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("FilterCities", slots, []);
 
@@ -13357,13 +13439,13 @@ var app = (function () {
     class FilterCities extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$4, create_fragment$4, safe_not_equal, {});
+    		init(this, options, instance$5, create_fragment$5, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "FilterCities",
     			options,
-    			id: create_fragment$4.name
+    			id: create_fragment$5.name
     		});
     	}
     }
@@ -13371,7 +13453,7 @@ var app = (function () {
     /* src/components/Measurements/Filter/FilterCountries.svelte generated by Svelte v3.31.0 */
 
     const { console: console_1$1 } = globals;
-    const file$3 = "src/components/Measurements/Filter/FilterCountries.svelte";
+    const file$4 = "src/components/Measurements/Filter/FilterCountries.svelte";
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -13379,7 +13461,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (106:6) {:else}
+    // (114:6) {:else}
     function create_else_block$2(ctx) {
     	let each_1_anchor;
     	let each_value = /*queryCountries*/ ctx[4];
@@ -13466,14 +13548,14 @@ var app = (function () {
     		block,
     		id: create_else_block$2.name,
     		type: "else",
-    		source: "(106:6) {:else}",
+    		source: "(114:6) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (103:22) 
+    // (111:22) 
     function create_if_block_1$2(ctx) {
     	let t0;
     	let t1;
@@ -13500,14 +13582,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$2.name,
     		type: "if",
-    		source: "(103:22) ",
+    		source: "(111:22) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (101:6) {#if loading}
+    // (109:6) {#if loading}
     function create_if_block$2(ctx) {
     	let t;
 
@@ -13528,14 +13610,14 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(101:6) {#if loading}",
+    		source: "(109:6) {#if loading}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (111:8) {:else}
+    // (119:8) {:else}
     function create_else_block_1$1(ctx) {
     	let div;
 
@@ -13544,7 +13626,7 @@ var app = (function () {
     			div = element("div");
     			div.textContent = "No countries found";
     			attr_dev(div, "class", "dropdown-item");
-    			add_location(div, file$3, 111, 10, 3260);
+    			add_location(div, file$4, 119, 10, 3334);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13558,14 +13640,14 @@ var app = (function () {
     		block,
     		id: create_else_block_1$1.name,
     		type: "else",
-    		source: "(111:8) {:else}",
+    		source: "(119:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:8) {#each queryCountries as result}
+    // (115:8) {#each queryCountries as result}
     function create_each_block$1(ctx) {
     	let div;
     	let t0_value = /*result*/ ctx[12].name + "";
@@ -13583,8 +13665,8 @@ var app = (function () {
     			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(div, "class", "dropdown-item selectable svelte-x7pvrw");
-    			add_location(div, file$3, 107, 10, 3120);
+    			attr_dev(div, "class", "dropdown-item selectable svelte-1jvq9hg");
+    			add_location(div, file$4, 115, 10, 3194);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13611,14 +13693,14 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(107:8) {#each queryCountries as result}",
+    		source: "(115:8) {#each queryCountries as result}",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$5(ctx) {
+    function create_fragment$6(ctx) {
     	let div3;
     	let div0;
     	let button;
@@ -13657,28 +13739,28 @@ var app = (function () {
     			div2 = element("div");
     			div1 = element("div");
     			if_block.c();
-    			attr_dev(span0, "class", "countrySelectLabel svelte-x7pvrw");
-    			add_location(span0, file$3, 92, 6, 2651);
+    			attr_dev(span0, "class", "countrySelectLabel svelte-1jvq9hg");
+    			add_location(span0, file$4, 100, 6, 2725);
     			attr_dev(i, "class", "fas fa-angle-down");
     			attr_dev(i, "aria-hidden", "true");
-    			add_location(i, file$3, 94, 8, 2750);
+    			add_location(i, file$4, 102, 8, 2824);
     			attr_dev(span1, "class", "icon is-small");
-    			add_location(span1, file$3, 93, 6, 2713);
-    			attr_dev(button, "class", "button is-link");
+    			add_location(span1, file$4, 101, 6, 2787);
+    			attr_dev(button, "class", "button is-link svelte-1jvq9hg");
     			attr_dev(button, "aria-haspopup", "true");
     			attr_dev(button, "aria-controls", "dropdown-menu-countries");
-    			add_location(button, file$3, 85, 4, 2461);
-    			attr_dev(div0, "class", "dropdown-trigger");
-    			add_location(div0, file$3, 84, 2, 2426);
-    			attr_dev(div1, "class", "dropdown-content svelte-x7pvrw");
-    			add_location(div1, file$3, 99, 4, 2913);
+    			add_location(button, file$4, 93, 4, 2535);
+    			attr_dev(div0, "class", "dropdown-trigger svelte-1jvq9hg");
+    			add_location(div0, file$4, 92, 2, 2500);
+    			attr_dev(div1, "class", "dropdown-content svelte-1jvq9hg");
+    			add_location(div1, file$4, 107, 4, 2987);
     			attr_dev(div2, "class", "dropdown-menu");
     			attr_dev(div2, "id", "dropdown-menu-countries");
     			attr_dev(div2, "role", "menu");
-    			add_location(div2, file$3, 98, 2, 2840);
+    			add_location(div2, file$4, 106, 2, 2914);
     			attr_dev(div3, "class", "dropdown header");
     			toggle_class(div3, "is-active", /*showCountries*/ ctx[1]);
-    			add_location(div3, file$3, 83, 0, 2362);
+    			add_location(div3, file$4, 91, 0, 2436);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -13733,7 +13815,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$5.name,
+    		id: create_fragment$6.name,
     		type: "component",
     		source: "",
     		ctx
@@ -13742,7 +13824,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$5($$self, $$props, $$invalidate) {
+    function instance$6($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("FilterCountries", slots, []);
 
@@ -13896,19 +13978,19 @@ var app = (function () {
     class FilterCountries extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$5, create_fragment$5, safe_not_equal, {});
+    		init(this, options, instance$6, create_fragment$6, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "FilterCountries",
     			options,
-    			id: create_fragment$5.name
+    			id: create_fragment$6.name
     		});
     	}
     }
 
     /* src/components/Measurements/Filter/FilterMobile.svelte generated by Svelte v3.31.0 */
-    const file$4 = "src/components/Measurements/Filter/FilterMobile.svelte";
+    const file$5 = "src/components/Measurements/Filter/FilterMobile.svelte";
 
     // (44:4) {:else}
     function create_else_block$3(ctx) {
@@ -13920,9 +14002,9 @@ var app = (function () {
     			span = element("span");
     			i = element("i");
     			attr_dev(i, "class", "fas fa-chevron-down");
-    			add_location(i, file$4, 44, 57, 965);
+    			add_location(i, file$5, 44, 57, 965);
     			attr_dev(span, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span, file$4, 44, 6, 914);
+    			add_location(span, file$5, 44, 6, 914);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -13954,9 +14036,9 @@ var app = (function () {
     			span = element("span");
     			i = element("i");
     			attr_dev(i, "class", "fas fa-chevron-up");
-    			add_location(i, file$4, 41, 8, 850);
+    			add_location(i, file$5, 41, 8, 850);
     			attr_dev(span, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span, file$4, 40, 6, 790);
+    			add_location(span, file$5, 40, 6, 790);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -14009,15 +14091,15 @@ var app = (function () {
     			t4 = space();
     			create_component(filtercities.$$.fragment);
     			attr_dev(span0, "class", "is-size-6 header svelte-bqdabj");
-    			add_location(span0, file$4, 51, 8, 1206);
+    			add_location(span0, file$5, 51, 8, 1206);
     			attr_dev(div0, "class", "header is-flex is-flex-direction-column svelte-bqdabj");
-    			add_location(div0, file$4, 50, 6, 1144);
+    			add_location(div0, file$5, 50, 6, 1144);
     			attr_dev(span1, "class", "is-size-6 header svelte-bqdabj");
-    			add_location(span1, file$4, 55, 8, 1361);
+    			add_location(span1, file$5, 55, 8, 1361);
     			attr_dev(div1, "class", "header is-flex is-flex-direction-column svelte-bqdabj");
-    			add_location(div1, file$4, 54, 6, 1299);
+    			add_location(div1, file$5, 54, 6, 1299);
     			attr_dev(div2, "class", "filters is-flex is-flex-wrap-wrap is-justify-content-space-around svelte-bqdabj");
-    			add_location(div2, file$4, 49, 4, 1058);
+    			add_location(div2, file$5, 49, 4, 1058);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -14061,7 +14143,7 @@ var app = (function () {
     	return block;
     }
 
-    function create_fragment$6(ctx) {
+    function create_fragment$7(ctx) {
     	let div2;
     	let div1;
     	let div0;
@@ -14091,11 +14173,11 @@ var app = (function () {
     			t2 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(div0, "class", "headerText svelte-bqdabj");
-    			add_location(div0, file$4, 38, 4, 723);
+    			add_location(div0, file$5, 38, 4, 723);
     			attr_dev(div1, "class", "headerField svelte-bqdabj");
-    			add_location(div1, file$4, 37, 2, 665);
+    			add_location(div1, file$5, 37, 2, 665);
     			attr_dev(div2, "class", "box is-flex is-flex-direction-column svelte-bqdabj");
-    			add_location(div2, file$4, 36, 0, 612);
+    			add_location(div2, file$5, 36, 0, 612);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -14167,7 +14249,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$6.name,
+    		id: create_fragment$7.name,
     		type: "component",
     		source: "",
     		ctx
@@ -14176,7 +14258,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$6($$self, $$props, $$invalidate) {
+    function instance$7($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("FilterMobile", slots, []);
     	let showFilter = false;
@@ -14212,20 +14294,20 @@ var app = (function () {
     class FilterMobile extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$6, create_fragment$6, safe_not_equal, {});
+    		init(this, options, instance$7, create_fragment$7, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "FilterMobile",
     			options,
-    			id: create_fragment$6.name
+    			id: create_fragment$7.name
     		});
     	}
     }
 
     /* src/components/Measurements/Header/SortDesktop.svelte generated by Svelte v3.31.0 */
 
-    const file$5 = "src/components/Measurements/Header/SortDesktop.svelte";
+    const file$6 = "src/components/Measurements/Header/SortDesktop.svelte";
 
     function get_each_context$2(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -14263,13 +14345,13 @@ var app = (function () {
     			t1 = space();
     			span1 = element("span");
     			i = element("i");
-    			add_location(span0, file$5, 35, 14, 677);
+    			add_location(span0, file$6, 35, 14, 677);
     			attr_dev(i, "class", "fas fa-sort");
-    			add_location(i, file$5, 37, 16, 783);
+    			add_location(i, file$6, 37, 16, 783);
     			attr_dev(span1, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span1, file$5, 36, 14, 715);
+    			add_location(span1, file$6, 36, 14, 715);
     			attr_dev(div, "class", "headerField svelte-1txg7uv");
-    			add_location(div, file$5, 34, 12, 597);
+    			add_location(div, file$6, 34, 12, 597);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -14328,7 +14410,7 @@ var app = (function () {
 
     			t = space();
     			attr_dev(div, "class", "column is-2 is-flex is-flex-direction-column svelte-1txg7uv");
-    			add_location(div, file$5, 32, 8, 489);
+    			add_location(div, file$6, 32, 8, 489);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -14381,7 +14463,7 @@ var app = (function () {
     	return block;
     }
 
-    function create_fragment$7(ctx) {
+    function create_fragment$8(ctx) {
     	let div2;
     	let div1;
     	let div0;
@@ -14404,11 +14486,11 @@ var app = (function () {
     			}
 
     			attr_dev(div0, "class", "columns");
-    			add_location(div0, file$5, 30, 4, 419);
+    			add_location(div0, file$6, 30, 4, 419);
     			attr_dev(div1, "class", "container");
-    			add_location(div1, file$5, 29, 2, 391);
+    			add_location(div1, file$6, 29, 2, 391);
     			attr_dev(div2, "class", "box headerBox svelte-1txg7uv");
-    			add_location(div2, file$5, 28, 0, 361);
+    			add_location(div2, file$6, 28, 0, 361);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -14457,7 +14539,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$7.name,
+    		id: create_fragment$8.name,
     		type: "component",
     		source: "",
     		ctx
@@ -14466,7 +14548,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$7($$self, $$props, $$invalidate) {
+    function instance$8($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("SortDesktop", slots, []);
     	
@@ -14502,13 +14584,13 @@ var app = (function () {
     class SortDesktop extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$7, create_fragment$7, safe_not_equal, { measurmentsKeys: 0, sort: 1 });
+    		init(this, options, instance$8, create_fragment$8, safe_not_equal, { measurmentsKeys: 0, sort: 1 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "SortDesktop",
     			options,
-    			id: create_fragment$7.name
+    			id: create_fragment$8.name
     		});
 
     		const { ctx } = this.$$;
@@ -14542,7 +14624,7 @@ var app = (function () {
 
     /* src/components/Measurements/Header/SortMobile.svelte generated by Svelte v3.31.0 */
 
-    const file$6 = "src/components/Measurements/Header/SortMobile.svelte";
+    const file$7 = "src/components/Measurements/Header/SortMobile.svelte";
 
     function get_each_context$3(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -14566,9 +14648,9 @@ var app = (function () {
     			span = element("span");
     			i = element("i");
     			attr_dev(i, "class", "fas fa-chevron-down");
-    			add_location(i, file$6, 44, 57, 804);
+    			add_location(i, file$7, 44, 57, 804);
     			attr_dev(span, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span, file$6, 44, 6, 753);
+    			add_location(span, file$7, 44, 6, 753);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -14600,9 +14682,9 @@ var app = (function () {
     			span = element("span");
     			i = element("i");
     			attr_dev(i, "class", "fas fa-chevron-up");
-    			add_location(i, file$6, 41, 8, 689);
+    			add_location(i, file$7, 41, 8, 689);
     			attr_dev(span, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span, file$6, 40, 6, 629);
+    			add_location(span, file$7, 40, 6, 629);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -14644,7 +14726,7 @@ var app = (function () {
     			}
 
     			attr_dev(div, "class", "is-flex is-flex-wrap-wrap tags svelte-13m5oa8");
-    			add_location(div, file$6, 49, 4, 895);
+    			add_location(div, file$7, 49, 4, 895);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -14721,13 +14803,13 @@ var app = (function () {
     			span1 = element("span");
     			i = element("i");
     			t2 = space();
-    			add_location(span0, file$6, 53, 12, 1107);
+    			add_location(span0, file$7, 53, 12, 1107);
     			attr_dev(i, "class", "fas fa-sort");
-    			add_location(i, file$6, 55, 14, 1209);
+    			add_location(i, file$7, 55, 14, 1209);
     			attr_dev(span1, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span1, file$6, 54, 12, 1143);
+    			add_location(span1, file$7, 54, 12, 1143);
     			attr_dev(div, "class", "headerField tag svelte-13m5oa8");
-    			add_location(div, file$6, 52, 10, 1025);
+    			add_location(div, file$7, 52, 10, 1025);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -14833,7 +14915,7 @@ var app = (function () {
     	return block;
     }
 
-    function create_fragment$8(ctx) {
+    function create_fragment$9(ctx) {
     	let div2;
     	let div1;
     	let div0;
@@ -14862,11 +14944,11 @@ var app = (function () {
     			t2 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(div0, "class", "headerText svelte-13m5oa8");
-    			add_location(div0, file$6, 38, 4, 566);
+    			add_location(div0, file$7, 38, 4, 566);
     			attr_dev(div1, "class", "headerField svelte-13m5oa8");
-    			add_location(div1, file$6, 37, 2, 514);
+    			add_location(div1, file$7, 37, 2, 514);
     			attr_dev(div2, "class", "box svelte-13m5oa8");
-    			add_location(div2, file$6, 36, 0, 494);
+    			add_location(div2, file$7, 36, 0, 494);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -14922,7 +15004,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$8.name,
+    		id: create_fragment$9.name,
     		type: "component",
     		source: "",
     		ctx
@@ -14931,7 +15013,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$8($$self, $$props, $$invalidate) {
+    function instance$9($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("SortMobile", slots, []);
     	
@@ -14979,13 +15061,13 @@ var app = (function () {
     class SortMobile extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$8, create_fragment$8, safe_not_equal, { measurmentsKeys: 0, sort: 1 });
+    		init(this, options, instance$9, create_fragment$9, safe_not_equal, { measurmentsKeys: 0, sort: 1 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "SortMobile",
     			options,
-    			id: create_fragment$8.name
+    			id: create_fragment$9.name
     		});
 
     		const { ctx } = this.$$;
@@ -15018,9 +15100,9 @@ var app = (function () {
     }
 
     /* src/components/Measurements/Header/Header.svelte generated by Svelte v3.31.0 */
-    const file$7 = "src/components/Measurements/Header/Header.svelte";
+    const file$8 = "src/components/Measurements/Header/Header.svelte";
 
-    function create_fragment$9(ctx) {
+    function create_fragment$a(ctx) {
     	let div3;
     	let div0;
     	let sortdesktop;
@@ -15030,6 +15112,9 @@ var app = (function () {
     	let filtermobile;
     	let t1;
     	let sortmobile;
+    	let t2;
+    	let div4;
+    	let description;
     	let current;
 
     	sortdesktop = new SortDesktop({
@@ -15050,6 +15135,8 @@ var app = (function () {
     			$$inline: true
     		});
 
+    	description = new Description({ $$inline: true });
+
     	const block = {
     		c: function create() {
     			div3 = element("div");
@@ -15061,14 +15148,19 @@ var app = (function () {
     			create_component(filtermobile.$$.fragment);
     			t1 = space();
     			create_component(sortmobile.$$.fragment);
+    			t2 = space();
+    			div4 = element("div");
+    			create_component(description.$$.fragment);
     			attr_dev(div0, "class", "hidden-mobile");
-    			add_location(div0, file$7, 26, 2, 538);
+    			add_location(div0, file$8, 31, 2, 633);
     			attr_dev(div1, "class", "is-hidden-tablet");
-    			add_location(div1, file$7, 30, 4, 655);
+    			add_location(div1, file$8, 35, 4, 750);
     			attr_dev(div2, "class", "hidden-desktop");
-    			add_location(div2, file$7, 29, 2, 622);
-    			attr_dev(div3, "class", "header svelte-140qi9y");
-    			add_location(div3, file$7, 25, 0, 515);
+    			add_location(div2, file$8, 34, 2, 717);
+    			attr_dev(div3, "class", "header svelte-1gw1xrz");
+    			add_location(div3, file$8, 30, 0, 610);
+    			attr_dev(div4, "class", "is-hidden-tablet description svelte-1gw1xrz");
+    			add_location(div4, file$8, 41, 0, 875);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -15083,6 +15175,9 @@ var app = (function () {
     			mount_component(filtermobile, div1, null);
     			append_dev(div2, t1);
     			mount_component(sortmobile, div2, null);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, div4, anchor);
+    			mount_component(description, div4, null);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
@@ -15098,12 +15193,14 @@ var app = (function () {
     			transition_in(sortdesktop.$$.fragment, local);
     			transition_in(filtermobile.$$.fragment, local);
     			transition_in(sortmobile.$$.fragment, local);
+    			transition_in(description.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(sortdesktop.$$.fragment, local);
     			transition_out(filtermobile.$$.fragment, local);
     			transition_out(sortmobile.$$.fragment, local);
+    			transition_out(description.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -15111,12 +15208,15 @@ var app = (function () {
     			destroy_component(sortdesktop);
     			destroy_component(filtermobile);
     			destroy_component(sortmobile);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(div4);
+    			destroy_component(description);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$9.name,
+    		id: create_fragment$a.name,
     		type: "component",
     		source: "",
     		ctx
@@ -15125,7 +15225,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$9($$self, $$props, $$invalidate) {
+    function instance$a($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Header", slots, []);
     	
@@ -15149,6 +15249,7 @@ var app = (function () {
 
     	$$self.$capture_state = () => ({
     		createEventDispatcher,
+    		Description,
     		FilterMobile,
     		SortDesktop,
     		SortMobile,
@@ -15173,13 +15274,13 @@ var app = (function () {
     class Header extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$9, create_fragment$9, safe_not_equal, { measurmentsKeys: 0 });
+    		init(this, options, instance$a, create_fragment$a, safe_not_equal, { measurmentsKeys: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Header",
     			options,
-    			id: create_fragment$9.name
+    			id: create_fragment$a.name
     		});
 
     		const { ctx } = this.$$;
@@ -15270,7 +15371,7 @@ query($country: String!, $after: String!) {
 
     const { console: console_1$2, window: window_1 } = globals;
 
-    const file$8 = "src/components/Measurements/MeasurementsList.svelte";
+    const file$9 = "src/components/Measurements/MeasurementsList.svelte";
 
     function get_each_context$4(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -15542,7 +15643,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function create_fragment$a(ctx) {
+    function create_fragment$b(ctx) {
     	let div;
     	let measurementsheader;
     	let t;
@@ -15579,7 +15680,7 @@ query($country: String!, $after: String!) {
     			t = space();
     			if_block.c();
     			attr_dev(div, "class", "container");
-    			add_location(div, file$8, 218, 0, 7426);
+    			add_location(div, file$9, 218, 0, 7426);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -15645,7 +15746,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$a.name,
+    		id: create_fragment$b.name,
     		type: "component",
     		source: "",
     		ctx
@@ -15659,7 +15760,7 @@ query($country: String!, $after: String!) {
     	document.documentElement.scrollTop = 0;
     }
 
-    function instance$a($$self, $$props, $$invalidate) {
+    function instance$b($$self, $$props, $$invalidate) {
     	let $filterStore;
     	validate_store(filterStore, "filterStore");
     	component_subscribe($$self, filterStore, $$value => $$invalidate(9, $filterStore = $$value));
@@ -16003,21 +16104,21 @@ query($country: String!, $after: String!) {
     class MeasurementsList extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$a, create_fragment$a, safe_not_equal, {});
+    		init(this, options, instance$b, create_fragment$b, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "MeasurementsList",
     			options,
-    			id: create_fragment$a.name
+    			id: create_fragment$b.name
     		});
     	}
     }
 
     /* src/components/Measurements/Filter/FilterDesktop.svelte generated by Svelte v3.31.0 */
-    const file$9 = "src/components/Measurements/Filter/FilterDesktop.svelte";
+    const file$a = "src/components/Measurements/Filter/FilterDesktop.svelte";
 
-    function create_fragment$b(ctx) {
+    function create_fragment$c(ctx) {
     	let div2;
     	let div0;
     	let span0;
@@ -16051,18 +16152,18 @@ query($country: String!, $after: String!) {
     			span2.textContent = "City";
     			t6 = space();
     			create_component(filtercities.$$.fragment);
-    			attr_dev(span0, "class", "is-size-5 header svelte-nvyvw0");
-    			add_location(span0, file$9, 21, 4, 464);
-    			attr_dev(span1, "class", "is-size-6 header svelte-nvyvw0");
-    			add_location(span1, file$9, 22, 4, 516);
-    			attr_dev(div0, "class", "header is-flex is-flex-direction-column svelte-nvyvw0");
-    			add_location(div0, file$9, 20, 2, 406);
-    			attr_dev(span2, "class", "is-size-6 header svelte-nvyvw0");
-    			add_location(span2, file$9, 26, 4, 655);
-    			attr_dev(div1, "class", "header is-flex is-flex-direction-column svelte-nvyvw0");
-    			add_location(div1, file$9, 25, 2, 597);
-    			attr_dev(div2, "class", "box is-flex is-flex-direction-column is-hidden-mobile svelte-nvyvw0");
-    			add_location(div2, file$9, 19, 0, 336);
+    			attr_dev(span0, "class", "is-size-5 header svelte-16738s0");
+    			add_location(span0, file$a, 22, 4, 496);
+    			attr_dev(span1, "class", "is-size-6 header svelte-16738s0");
+    			add_location(span1, file$a, 23, 4, 548);
+    			attr_dev(div0, "class", "header is-flex is-flex-direction-column svelte-16738s0");
+    			add_location(div0, file$a, 21, 2, 438);
+    			attr_dev(span2, "class", "is-size-6 header svelte-16738s0");
+    			add_location(span2, file$a, 27, 4, 687);
+    			attr_dev(div1, "class", "header is-flex is-flex-direction-column svelte-16738s0");
+    			add_location(div1, file$a, 26, 2, 629);
+    			attr_dev(div2, "class", "box is-flex is-flex-direction-column is-hidden-mobile svelte-16738s0");
+    			add_location(div2, file$a, 20, 0, 368);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -16103,7 +16204,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$b.name,
+    		id: create_fragment$c.name,
     		type: "component",
     		source: "",
     		ctx
@@ -16112,7 +16213,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$b($$self, $$props, $$invalidate) {
+    function instance$c($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("FilterDesktop", slots, []);
     	const writable_props = [];
@@ -16128,80 +16229,95 @@ query($country: String!, $after: String!) {
     class FilterDesktop extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$b, create_fragment$b, safe_not_equal, {});
+    		init(this, options, instance$c, create_fragment$c, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "FilterDesktop",
     			options,
-    			id: create_fragment$b.name
+    			id: create_fragment$c.name
     		});
     	}
     }
 
     /* src/components/Measurements/MeasurementsDashboard.svelte generated by Svelte v3.31.0 */
-    const file$a = "src/components/Measurements/MeasurementsDashboard.svelte";
+    const file$b = "src/components/Measurements/MeasurementsDashboard.svelte";
 
-    function create_fragment$c(ctx) {
+    function create_fragment$d(ctx) {
     	let section;
+    	let div2;
     	let div1;
     	let div0;
     	let filterdesktop;
-    	let t;
+    	let t0;
+    	let description;
+    	let t1;
     	let measurementslist;
     	let current;
     	filterdesktop = new FilterDesktop({ $$inline: true });
+    	description = new Description({ $$inline: true });
     	measurementslist = new MeasurementsList({ $$inline: true });
 
     	const block = {
     		c: function create() {
     			section = element("section");
+    			div2 = element("div");
     			div1 = element("div");
     			div0 = element("div");
     			create_component(filterdesktop.$$.fragment);
-    			t = space();
+    			t0 = space();
+    			create_component(description.$$.fragment);
+    			t1 = space();
     			create_component(measurementslist.$$.fragment);
-    			attr_dev(div0, "class", "row svelte-8yvmn9");
-    			add_location(div0, file$a, 12, 4, 252);
-    			attr_dev(div1, "class", "container");
-    			add_location(div1, file$a, 11, 2, 224);
+    			attr_dev(div0, "class", "is-flex is-flex-direction-column side-column is-hidden-mobile svelte-czut62");
+    			add_location(div0, file$b, 19, 6, 389);
+    			attr_dev(div1, "class", "row svelte-czut62");
+    			add_location(div1, file$b, 18, 4, 365);
+    			attr_dev(div2, "class", "container");
+    			add_location(div2, file$b, 17, 2, 337);
     			attr_dev(section, "class", "section");
-    			add_location(section, file$a, 10, 0, 196);
+    			add_location(section, file$b, 16, 0, 309);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			append_dev(section, div1);
+    			append_dev(section, div2);
+    			append_dev(div2, div1);
     			append_dev(div1, div0);
     			mount_component(filterdesktop, div0, null);
-    			append_dev(div0, t);
-    			mount_component(measurementslist, div0, null);
+    			append_dev(div0, t0);
+    			mount_component(description, div0, null);
+    			append_dev(div1, t1);
+    			mount_component(measurementslist, div1, null);
     			current = true;
     		},
     		p: noop,
     		i: function intro(local) {
     			if (current) return;
     			transition_in(filterdesktop.$$.fragment, local);
+    			transition_in(description.$$.fragment, local);
     			transition_in(measurementslist.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(filterdesktop.$$.fragment, local);
+    			transition_out(description.$$.fragment, local);
     			transition_out(measurementslist.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(section);
     			destroy_component(filterdesktop);
+    			destroy_component(description);
     			destroy_component(measurementslist);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$c.name,
+    		id: create_fragment$d.name,
     		type: "component",
     		source: "",
     		ctx
@@ -16210,7 +16326,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$c($$self, $$props, $$invalidate) {
+    function instance$d($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("MeasurementsDashboard", slots, []);
     	const writable_props = [];
@@ -16219,20 +16335,25 @@ query($country: String!, $after: String!) {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<MeasurementsDashboard> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ MeasurementsList, FilterDesktop });
+    	$$self.$capture_state = () => ({
+    		MeasurementsList,
+    		FilterDesktop,
+    		Description
+    	});
+
     	return [];
     }
 
     class MeasurementsDashboard extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$c, create_fragment$c, safe_not_equal, {});
+    		init(this, options, instance$d, create_fragment$d, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "MeasurementsDashboard",
     			options,
-    			id: create_fragment$c.name
+    			id: create_fragment$d.name
     		});
     	}
     }
@@ -16240,9 +16361,9 @@ query($country: String!, $after: String!) {
     /* src/components/Nav/Burger.svelte generated by Svelte v3.31.0 */
 
     const { console: console_1$3 } = globals;
-    const file$b = "src/components/Nav/Burger.svelte";
+    const file$c = "src/components/Nav/Burger.svelte";
 
-    function create_fragment$d(ctx) {
+    function create_fragment$e(ctx) {
     	let div;
     	let input;
     	let t0;
@@ -16269,18 +16390,18 @@ query($country: String!, $after: String!) {
     			attr_dev(input, "type", "checkbox");
     			attr_dev(input, "id", "hamburg");
     			attr_dev(input, "class", "svelte-vx12qw");
-    			add_location(input, file$b, 63, 2, 1143);
+    			add_location(input, file$c, 63, 2, 1143);
     			attr_dev(span0, "class", "line svelte-vx12qw");
-    			add_location(span0, file$b, 65, 4, 1251);
+    			add_location(span0, file$c, 65, 4, 1251);
     			attr_dev(span1, "class", "line svelte-vx12qw");
-    			add_location(span1, file$b, 66, 4, 1277);
+    			add_location(span1, file$c, 66, 4, 1277);
     			attr_dev(span2, "class", "line svelte-vx12qw");
-    			add_location(span2, file$b, 67, 4, 1303);
+    			add_location(span2, file$c, 67, 4, 1303);
     			attr_dev(label, "for", "hamburg");
     			attr_dev(label, "class", "hamburg svelte-vx12qw");
-    			add_location(label, file$b, 64, 2, 1209);
+    			add_location(label, file$c, 64, 2, 1209);
     			attr_dev(div, "class", "row");
-    			add_location(div, file$b, 62, 0, 1123);
+    			add_location(div, file$c, 62, 0, 1123);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -16313,7 +16434,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$d.name,
+    		id: create_fragment$e.name,
     		type: "component",
     		source: "",
     		ctx
@@ -16322,7 +16443,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$d($$self, $$props, $$invalidate) {
+    function instance$e($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Burger", slots, []);
     	let { openened = false } = $$props;
@@ -16362,13 +16483,13 @@ query($country: String!, $after: String!) {
     class Burger extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$d, create_fragment$d, safe_not_equal, { openened: 1 });
+    		init(this, options, instance$e, create_fragment$e, safe_not_equal, { openened: 1 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Burger",
     			options,
-    			id: create_fragment$d.name
+    			id: create_fragment$e.name
     		});
     	}
 
@@ -16422,7 +16543,7 @@ query($country: String!, $after: String!) {
     }
 
     /* src/components/Nav/Links.svelte generated by Svelte v3.31.0 */
-    const file$c = "src/components/Nav/Links.svelte";
+    const file$d = "src/components/Nav/Links.svelte";
 
     // (51:2) <Link to="/dashboard">
     function create_default_slot(ctx) {
@@ -16451,7 +16572,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function create_fragment$e(ctx) {
+    function create_fragment$f(ctx) {
     	let div;
     	let link;
     	let div_transition;
@@ -16473,7 +16594,7 @@ query($country: String!, $after: String!) {
     			attr_dev(div, "class", "linkContainer svelte-1aegxns");
     			toggle_class(div, "links", !/*showMobile*/ ctx[0]);
     			toggle_class(div, "mobile", /*showMobile*/ ctx[0]);
-    			add_location(div, file$c, 45, 0, 865);
+    			add_location(div, file$d, 45, 0, 865);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -16544,7 +16665,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$e.name,
+    		id: create_fragment$f.name,
     		type: "component",
     		source: "",
     		ctx
@@ -16553,7 +16674,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$e($$self, $$props, $$invalidate) {
+    function instance$f($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Links", slots, []);
     	let { showMobile = false } = $$props;
@@ -16583,13 +16704,13 @@ query($country: String!, $after: String!) {
     class Links extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$e, create_fragment$e, safe_not_equal, { showMobile: 0 });
+    		init(this, options, instance$f, create_fragment$f, safe_not_equal, { showMobile: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Links",
     			options,
-    			id: create_fragment$e.name
+    			id: create_fragment$f.name
     		});
     	}
 
@@ -16603,9 +16724,9 @@ query($country: String!, $after: String!) {
     }
 
     /* src/components/Nav/Nav.svelte generated by Svelte v3.31.0 */
-    const file$d = "src/components/Nav/Nav.svelte";
+    const file$e = "src/components/Nav/Nav.svelte";
 
-    // (51:22) <Link to="/">
+    // (39:22) <Link to="/">
     function create_default_slot$1(ctx) {
     	let img;
     	let img_src_value;
@@ -16615,8 +16736,8 @@ query($country: String!, $after: String!) {
     			img = element("img");
     			if (img.src !== (img_src_value = "/AirPoll.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "logo");
-    			attr_dev(img, "class", "svelte-14ubdbw");
-    			add_location(img, file$d, 50, 35, 859);
+    			attr_dev(img, "class", "svelte-xvt306");
+    			add_location(img, file$e, 38, 35, 714);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -16630,14 +16751,14 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(51:22) <Link to=\\\"/\\\">",
+    		source: "(39:22) <Link to=\\\"/\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (54:4) {:else}
+    // (42:4) {:else}
     function create_else_block$6(ctx) {
     	let links;
     	let current;
@@ -16670,14 +16791,14 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_else_block$6.name,
     		type: "else",
-    		source: "(54:4) {:else}",
+    		source: "(42:4) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (52:4) {#if w < 600}
+    // (40:4) {#if w < 600}
     function create_if_block_1$6(ctx) {
     	let burger;
     	let updating_openened;
@@ -16733,14 +16854,14 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_if_block_1$6.name,
     		type: "if",
-    		source: "(52:4) {#if w < 600}",
+    		source: "(40:4) {#if w < 600}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (58:2) {#if w < 600 && burgerOpen}
+    // (46:2) {#if w < 600 && burgerOpen}
     function create_if_block$6(ctx) {
     	let links;
     	let current;
@@ -16776,14 +16897,14 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_if_block$6.name,
     		type: "if",
-    		source: "(58:2) {#if w < 600 && burgerOpen}",
+    		source: "(46:2) {#if w < 600 && burgerOpen}",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$f(ctx) {
+    function create_fragment$g(ctx) {
     	let div1;
     	let nav;
     	let div0;
@@ -16826,13 +16947,13 @@ query($country: String!, $after: String!) {
     			if_block0.c();
     			t1 = space();
     			if (if_block1) if_block1.c();
-    			attr_dev(div0, "class", "logo svelte-14ubdbw");
-    			add_location(div0, file$d, 50, 4, 828);
-    			attr_dev(nav, "class", "svelte-14ubdbw");
+    			attr_dev(div0, "class", "logo svelte-xvt306");
+    			add_location(div0, file$e, 38, 4, 683);
+    			attr_dev(nav, "class", "svelte-xvt306");
     			add_render_callback(() => /*nav_elementresize_handler*/ ctx[3].call(nav));
-    			add_location(nav, file$d, 49, 2, 797);
-    			attr_dev(div1, "class", "navigation svelte-14ubdbw");
-    			add_location(div1, file$d, 48, 0, 770);
+    			add_location(nav, file$e, 37, 2, 652);
+    			attr_dev(div1, "class", "navigation svelte-xvt306");
+    			add_location(div1, file$e, 36, 0, 625);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -16928,7 +17049,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$f.name,
+    		id: create_fragment$g.name,
     		type: "component",
     		source: "",
     		ctx
@@ -16937,7 +17058,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$f($$self, $$props, $$invalidate) {
+    function instance$g($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Nav", slots, []);
     	let w;
@@ -16975,22 +17096,22 @@ query($country: String!, $after: String!) {
     class Nav extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$f, create_fragment$f, safe_not_equal, {});
+    		init(this, options, instance$g, create_fragment$g, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Nav",
     			options,
-    			id: create_fragment$f.name
+    			id: create_fragment$g.name
     		});
     	}
     }
 
     /* src/components/IllustrationComponents/Rocket.svelte generated by Svelte v3.31.0 */
 
-    const file$e = "src/components/IllustrationComponents/Rocket.svelte";
+    const file$f = "src/components/IllustrationComponents/Rocket.svelte";
 
-    function create_fragment$g(ctx) {
+    function create_fragment$h(ctx) {
     	let svg;
     	let g5;
     	let g0;
@@ -17135,105 +17256,105 @@ query($country: String!, $after: String!) {
     			attr_dev(path0, "id", "Vector_9");
     			attr_dev(path0, "d", "M252.994 535.102L253.001 495.101C253.002 489.578 257.48 485.102 263.002 485.102C268.526 485.104 273.002 489.583 273.001 495.104L272.994 535.105C272.993 540.628 268.515 545.105 262.993 545.104C257.47 545.102 252.992 540.624 252.994 535.102Z");
     			attr_dev(path0, "fill", path0_fill_value = /*flying*/ ctx[0] ? "black" : "transparent");
-    			add_location(path0, file$e, 68, 6, 1140);
+    			add_location(path0, file$f, 68, 6, 1140);
     			attr_dev(path1, "id", "Vector_10");
     			attr_dev(path1, "d", "M453.006 535.105L452.999 495.104C452.998 489.581 457.474 485.103 462.997 485.102C468.519 485.1 472.996 489.577 472.998 495.1L473.005 535.101C473.007 540.624 468.53 545.102 463.007 545.103C457.487 545.104 453.007 540.63 453.006 535.105Z");
     			attr_dev(path1, "fill", path1_fill_value = /*flying*/ ctx[0] ? "black" : "transparent");
-    			add_location(path1, file$e, 72, 6, 1477);
+    			add_location(path1, file$f, 72, 6, 1477);
     			attr_dev(path2, "id", "Vector_11");
     			attr_dev(path2, "d", "M312.995 555.106L313.002 650.898C313.002 656.421 308.525 660.898 303.002 660.898C297.481 660.9 293.002 656.423 293.002 650.899L292.995 555.107C292.994 549.584 297.471 545.107 302.994 545.107C308.515 545.105 312.993 549.583 312.995 555.106Z");
     			attr_dev(path2, "fill", path2_fill_value = /*flying*/ ctx[0] ? "black" : "transparent");
-    			add_location(path2, file$e, 76, 6, 1811);
+    			add_location(path2, file$f, 76, 6, 1811);
     			attr_dev(path3, "id", "Vector_12");
     			attr_dev(path3, "d", "M369.563 611.674L369.57 707.466C369.571 712.989 365.094 717.467 359.571 717.467C354.05 717.468 349.57 712.991 349.57 707.468L349.563 611.676C349.563 606.153 354.04 601.675 359.563 601.675C365.084 601.675 369.562 606.153 369.563 611.674Z");
     			attr_dev(path3, "fill", path3_fill_value = /*flying*/ ctx[0] ? "black" : "transparent");
-    			add_location(path3, file$e, 80, 6, 2149);
+    			add_location(path3, file$f, 80, 6, 2149);
     			attr_dev(path4, "id", "Vector_13");
     			attr_dev(path4, "d", "M412.998 650.898L413.005 555.106C413.006 549.583 417.482 545.106 423.006 545.106C428.527 545.106 433.005 549.584 433.005 555.106L432.998 650.898C432.998 656.421 428.521 660.898 422.997 660.898C417.475 660.898 412.997 656.421 412.998 650.898Z");
     			attr_dev(path4, "fill", path4_fill_value = /*flying*/ ctx[0] ? "black" : "transparent");
-    			add_location(path4, file$e, 84, 6, 2484);
+    			add_location(path4, file$f, 84, 6, 2484);
     			attr_dev(g0, "id", "directionLines");
     			attr_dev(g0, "filter", "url(#filter4_d)");
     			attr_dev(g0, "class", "svelte-1j2qzve");
     			toggle_class(g0, "flyingLines", /*flying*/ ctx[0]);
-    			add_location(g0, file$e, 67, 4, 1058);
+    			add_location(g0, file$f, 67, 4, 1058);
     			attr_dev(path5, "d", "M393.002 455.284L333.35 455.284C327.014 465.905 323.175 479.913 323.175 495.285C323.175 528.42 363.176 575.28 363.176 575.28C363.176 575.28 403.177 528.42 403.177 495.285C403.177 479.913 399.337 465.905 393.002 455.284Z");
     			attr_dev(path5, "fill", path5_fill_value = /*flying*/ ctx[0] ? "#FFDD78" : "transparent");
-    			add_location(path5, file$e, 90, 6, 2907);
+    			add_location(path5, file$f, 90, 6, 2907);
     			attr_dev(g1, "id", "Flame");
     			attr_dev(g1, "filter", "url(#filter3_d)");
     			attr_dev(g1, "class", "svelte-1j2qzve");
     			toggle_class(g1, "pulsatingFlame", /*flying*/ ctx[0]);
-    			add_location(g1, file$e, 89, 4, 2831);
+    			add_location(g1, file$f, 89, 4, 2831);
     			attr_dev(path6, "d", "M363.176 15.28C363.176 15.28 326.477 54.7083 297.542 115.279L428.81 115.279C399.875 54.7083 363.176 15.28 363.176 15.28Z");
-    			attr_dev(path6, "fill", "#ff6584");
-    			add_location(path6, file$e, 95, 6, 3258);
+    			attr_dev(path6, "fill", "#1e77fd");
+    			add_location(path6, file$f, 95, 6, 3258);
     			attr_dev(g2, "id", "Vector");
     			attr_dev(g2, "filter", "url(#filter0_d)");
-    			add_location(g2, file$e, 94, 4, 3211);
+    			add_location(g2, file$f, 94, 4, 3211);
     			attr_dev(path7, "d", "M428.81 115.279L297.542 115.279C278.705 154.679 263.17 203.038 263.17 255.279C263.17 303.42 272.859 351.646 289.778 395.279L436.574 395.279C447.894 366.083 457.037 331.993 461.025 295.04C462.418 282.107 463.182 268.827 463.182 255.279C463.182 203.038 447.647 154.679 428.81 115.279Z");
     			attr_dev(path7, "fill", "#F2F2F2");
-    			add_location(path7, file$e, 100, 6, 3485);
+    			add_location(path7, file$f, 100, 6, 3485);
     			attr_dev(g3, "id", "Vector_2");
     			attr_dev(g3, "filter", "url(#filter1_d)");
-    			add_location(g3, file$e, 99, 4, 3436);
+    			add_location(g3, file$f, 99, 4, 3436);
     			attr_dev(path8, "id", "Vector_3");
     			attr_dev(path8, "d", "M363.176 175.284C341.086 175.284 323.175 193.195 323.175 215.285C323.175 237.375 341.079 255.279 363.176 255.286C385.273 255.279 403.177 237.375 403.177 215.285C403.177 193.195 385.266 175.284 363.176 175.284Z");
     			attr_dev(path8, "fill", "#7BD8E8");
-    			add_location(path8, file$e, 104, 4, 3825);
+    			add_location(path8, file$f, 104, 4, 3825);
     			attr_dev(path9, "id", "Vector_4");
     			attr_dev(path9, "d", "M263.177 295.28C172.066 313.502 204.954 417.058 243.173 455.277C243.173 415.283 274.858 395.279 274.858 395.279L289.778 395.279C278.457 366.083 269.315 331.993 265.326 295.04L263.177 295.28Z");
-    			attr_dev(path9, "fill", "#ff6584");
-    			add_location(path9, file$e, 109, 6, 4145);
+    			attr_dev(path9, "fill", "#1e77fd");
+    			add_location(path9, file$f, 109, 6, 4145);
     			attr_dev(path10, "id", "Vector_5");
     			attr_dev(path10, "d", "M393.002 455.284H395.293C402.06 455.277 408.629 452.032 412.079 446.205C420.614 431.773 429.071 414.604 436.574 395.279L289.778 395.279C297.281 414.604 305.738 431.773 314.272 446.205C317.723 452.032 324.292 455.277 331.059 455.284H333.35L393.002 455.284Z");
-    			attr_dev(path10, "fill", "#ff6584");
-    			add_location(path10, file$e, 113, 6, 4408);
+    			attr_dev(path10, "fill", "#1e77fd");
+    			add_location(path10, file$f, 113, 6, 4408);
     			attr_dev(path11, "id", "Vector_6");
     			attr_dev(path11, "d", "M463.175 295.28L461.025 295.04C457.037 331.993 447.894 366.083 436.574 395.279H451.494C451.494 395.279 483.179 415.283 483.179 455.277C521.398 417.058 554.286 313.502 463.175 295.28Z");
-    			attr_dev(path11, "fill", "#ff6584");
-    			add_location(path11, file$e, 117, 6, 4736);
+    			attr_dev(path11, "fill", "#1e77fd");
+    			add_location(path11, file$f, 117, 6, 4736);
     			attr_dev(g4, "id", "Group");
     			attr_dev(g4, "filter", "url(#filter2_d)");
-    			add_location(g4, file$e, 108, 4, 4099);
+    			add_location(g4, file$f, 108, 4, 4099);
     			attr_dev(path12, "id", "Vector_7");
     			attr_dev(path12, "d", "M352.994 355.101C353.001 349.579 357.477 345.103 362.992 345.103C368.522 345.103 372.998 349.579 372.998 355.108C372.998 360.624 368.522 365.1 362.999 365.107C357.477 365.1 353.001 360.624 352.994 355.101Z");
     			attr_dev(path12, "fill", "black");
-    			add_location(path12, file$e, 122, 4, 4998);
+    			add_location(path12, file$f, 122, 4, 4998);
     			attr_dev(path13, "id", "Vector_8");
     			attr_dev(path13, "d", "M312.998 215.108C312.998 187.477 335.363 165.107 362.999 165.107C390.632 165.108 413 187.475 413.001 215.109C413.001 242.671 390.572 265.101 362.996 265.109C335.433 265.101 312.998 242.677 312.998 215.108ZM393 215.108C393 198.53 379.581 185.107 362.999 185.107C346.421 185.107 332.998 198.527 332.999 215.108C332.998 231.645 346.457 245.104 362.997 245.109C379.541 245.104 393.001 231.646 393 215.108Z");
     			attr_dev(path13, "fill", "black");
-    			add_location(path13, file$e, 126, 4, 5266);
+    			add_location(path13, file$f, 126, 4, 5266);
     			attr_dev(path14, "id", "Vector_14");
     			attr_dev(path14, "d", "M352.999 315.1L352.999 295.103C352.999 289.581 357.477 285.103 363 285.103C368.523 285.103 372.999 289.579 373 295.103L373 315.1C373 320.623 368.523 325.1 363 325.101C357.477 325.1 353 320.624 352.999 315.1Z");
     			attr_dev(path14, "fill", "black");
-    			add_location(path14, file$e, 130, 4, 5730);
+    			add_location(path14, file$f, 130, 4, 5730);
     			attr_dev(g5, "id", "Rocket");
     			attr_dev(g5, "clip-path", "url(#clip0)");
-    			add_location(g5, file$e, 66, 2, 1014);
+    			add_location(g5, file$f, 66, 2, 1014);
     			attr_dev(feFlood0, "flood-opacity", "0");
     			attr_dev(feFlood0, "result", "BackgroundImageFix");
-    			add_location(feFlood0, file$e, 144, 6, 6207);
+    			add_location(feFlood0, file$f, 144, 6, 6207);
     			attr_dev(feColorMatrix0, "in", "SourceAlpha");
     			attr_dev(feColorMatrix0, "type", "matrix");
     			attr_dev(feColorMatrix0, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0");
-    			add_location(feColorMatrix0, file$e, 145, 6, 6271);
+    			add_location(feColorMatrix0, file$f, 145, 6, 6271);
     			attr_dev(feOffset0, "dy", "4");
-    			add_location(feOffset0, file$e, 149, 6, 6401);
+    			add_location(feOffset0, file$f, 149, 6, 6401);
     			attr_dev(feGaussianBlur0, "stdDeviation", "2");
-    			add_location(feGaussianBlur0, file$e, 150, 6, 6427);
+    			add_location(feGaussianBlur0, file$f, 150, 6, 6427);
     			attr_dev(feColorMatrix1, "type", "matrix");
     			attr_dev(feColorMatrix1, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0");
-    			add_location(feColorMatrix1, file$e, 151, 6, 6469);
+    			add_location(feColorMatrix1, file$f, 151, 6, 6469);
     			attr_dev(feBlend0, "mode", "normal");
     			attr_dev(feBlend0, "in2", "BackgroundImageFix");
     			attr_dev(feBlend0, "result", "effect1_dropShadow");
-    			add_location(feBlend0, file$e, 154, 6, 6575);
+    			add_location(feBlend0, file$f, 154, 6, 6575);
     			attr_dev(feBlend1, "mode", "normal");
     			attr_dev(feBlend1, "in", "SourceGraphic");
     			attr_dev(feBlend1, "in2", "effect1_dropShadow");
     			attr_dev(feBlend1, "result", "shape");
-    			add_location(feBlend1, file$e, 158, 6, 6684);
+    			add_location(feBlend1, file$f, 158, 6, 6684);
     			attr_dev(filter0, "id", "filter0_d");
     			attr_dev(filter0, "x", "276.36");
     			attr_dev(filter0, "y", "15.28");
@@ -17241,30 +17362,30 @@ query($country: String!, $after: String!) {
     			attr_dev(filter0, "height", "173.633");
     			attr_dev(filter0, "filterUnits", "userSpaceOnUse");
     			attr_dev(filter0, "color-interpolation-filters", "sRGB");
-    			add_location(filter0, file$e, 136, 4, 6017);
+    			add_location(filter0, file$f, 136, 4, 6017);
     			attr_dev(feFlood1, "flood-opacity", "0");
     			attr_dev(feFlood1, "result", "BackgroundImageFix");
-    			add_location(feFlood1, file$e, 172, 6, 7011);
+    			add_location(feFlood1, file$f, 172, 6, 7011);
     			attr_dev(feColorMatrix2, "in", "SourceAlpha");
     			attr_dev(feColorMatrix2, "type", "matrix");
     			attr_dev(feColorMatrix2, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0");
-    			add_location(feColorMatrix2, file$e, 173, 6, 7075);
+    			add_location(feColorMatrix2, file$f, 173, 6, 7075);
     			attr_dev(feOffset1, "dy", "4");
-    			add_location(feOffset1, file$e, 177, 6, 7205);
+    			add_location(feOffset1, file$f, 177, 6, 7205);
     			attr_dev(feGaussianBlur1, "stdDeviation", "2");
-    			add_location(feGaussianBlur1, file$e, 178, 6, 7231);
+    			add_location(feGaussianBlur1, file$f, 178, 6, 7231);
     			attr_dev(feColorMatrix3, "type", "matrix");
     			attr_dev(feColorMatrix3, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0");
-    			add_location(feColorMatrix3, file$e, 179, 6, 7273);
+    			add_location(feColorMatrix3, file$f, 179, 6, 7273);
     			attr_dev(feBlend2, "mode", "normal");
     			attr_dev(feBlend2, "in2", "BackgroundImageFix");
     			attr_dev(feBlend2, "result", "effect1_dropShadow");
-    			add_location(feBlend2, file$e, 182, 6, 7379);
+    			add_location(feBlend2, file$f, 182, 6, 7379);
     			attr_dev(feBlend3, "mode", "normal");
     			attr_dev(feBlend3, "in", "SourceGraphic");
     			attr_dev(feBlend3, "in2", "effect1_dropShadow");
     			attr_dev(feBlend3, "result", "shape");
-    			add_location(feBlend3, file$e, 186, 6, 7488);
+    			add_location(feBlend3, file$f, 186, 6, 7488);
     			attr_dev(filter1, "id", "filter1_d");
     			attr_dev(filter1, "x", "149.66");
     			attr_dev(filter1, "y", "49.6454");
@@ -17272,30 +17393,30 @@ query($country: String!, $after: String!) {
     			attr_dev(filter1, "height", "427.031");
     			attr_dev(filter1, "filterUnits", "userSpaceOnUse");
     			attr_dev(filter1, "color-interpolation-filters", "sRGB");
-    			add_location(filter1, file$e, 164, 4, 6819);
+    			add_location(filter1, file$f, 164, 4, 6819);
     			attr_dev(feFlood2, "flood-opacity", "0");
     			attr_dev(feFlood2, "result", "BackgroundImageFix");
-    			add_location(feFlood2, file$e, 200, 6, 7816);
+    			add_location(feFlood2, file$f, 200, 6, 7816);
     			attr_dev(feColorMatrix4, "in", "SourceAlpha");
     			attr_dev(feColorMatrix4, "type", "matrix");
     			attr_dev(feColorMatrix4, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0");
-    			add_location(feColorMatrix4, file$e, 201, 6, 7880);
+    			add_location(feColorMatrix4, file$f, 201, 6, 7880);
     			attr_dev(feOffset2, "dy", "4");
-    			add_location(feOffset2, file$e, 205, 6, 8010);
+    			add_location(feOffset2, file$f, 205, 6, 8010);
     			attr_dev(feGaussianBlur2, "stdDeviation", "2");
-    			add_location(feGaussianBlur2, file$e, 206, 6, 8036);
+    			add_location(feGaussianBlur2, file$f, 206, 6, 8036);
     			attr_dev(feColorMatrix5, "type", "matrix");
     			attr_dev(feColorMatrix5, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0");
-    			add_location(feColorMatrix5, file$e, 207, 6, 8078);
+    			add_location(feColorMatrix5, file$f, 207, 6, 8078);
     			attr_dev(feBlend4, "mode", "normal");
     			attr_dev(feBlend4, "in2", "BackgroundImageFix");
     			attr_dev(feBlend4, "result", "effect1_dropShadow");
-    			add_location(feBlend4, file$e, 210, 6, 8184);
+    			add_location(feBlend4, file$f, 210, 6, 8184);
     			attr_dev(feBlend5, "mode", "normal");
     			attr_dev(feBlend5, "in", "SourceGraphic");
     			attr_dev(feBlend5, "in2", "effect1_dropShadow");
     			attr_dev(feBlend5, "result", "shape");
-    			add_location(feBlend5, file$e, 214, 6, 8293);
+    			add_location(feBlend5, file$f, 214, 6, 8293);
     			attr_dev(filter2, "id", "filter2_d");
     			attr_dev(filter2, "x", "158.792");
     			attr_dev(filter2, "y", "283.701");
@@ -17303,30 +17424,30 @@ query($country: String!, $after: String!) {
     			attr_dev(filter2, "height", "220.172");
     			attr_dev(filter2, "filterUnits", "userSpaceOnUse");
     			attr_dev(filter2, "color-interpolation-filters", "sRGB");
-    			add_location(filter2, file$e, 192, 4, 7623);
+    			add_location(filter2, file$f, 192, 4, 7623);
     			attr_dev(feFlood3, "flood-opacity", "0");
     			attr_dev(feFlood3, "result", "BackgroundImageFix");
-    			add_location(feFlood3, file$e, 228, 6, 8621);
+    			add_location(feFlood3, file$f, 228, 6, 8621);
     			attr_dev(feColorMatrix6, "in", "SourceAlpha");
     			attr_dev(feColorMatrix6, "type", "matrix");
     			attr_dev(feColorMatrix6, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0");
-    			add_location(feColorMatrix6, file$e, 229, 6, 8685);
+    			add_location(feColorMatrix6, file$f, 229, 6, 8685);
     			attr_dev(feOffset3, "dy", "4");
-    			add_location(feOffset3, file$e, 233, 6, 8815);
+    			add_location(feOffset3, file$f, 233, 6, 8815);
     			attr_dev(feGaussianBlur3, "stdDeviation", "2");
-    			add_location(feGaussianBlur3, file$e, 234, 6, 8841);
+    			add_location(feGaussianBlur3, file$f, 234, 6, 8841);
     			attr_dev(feColorMatrix7, "type", "matrix");
     			attr_dev(feColorMatrix7, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0");
-    			add_location(feColorMatrix7, file$e, 235, 6, 8883);
+    			add_location(feColorMatrix7, file$f, 235, 6, 8883);
     			attr_dev(feBlend6, "mode", "normal");
     			attr_dev(feBlend6, "in2", "BackgroundImageFix");
     			attr_dev(feBlend6, "result", "effect1_dropShadow");
-    			add_location(feBlend6, file$e, 238, 6, 8989);
+    			add_location(feBlend6, file$f, 238, 6, 8989);
     			attr_dev(feBlend7, "mode", "normal");
     			attr_dev(feBlend7, "in", "SourceGraphic");
     			attr_dev(feBlend7, "in2", "effect1_dropShadow");
     			attr_dev(feBlend7, "result", "shape");
-    			add_location(feBlend7, file$e, 242, 6, 9098);
+    			add_location(feBlend7, file$f, 242, 6, 9098);
     			attr_dev(filter3, "id", "filter3_d");
     			attr_dev(filter3, "x", "284.265");
     			attr_dev(filter3, "y", "425.458");
@@ -17334,30 +17455,30 @@ query($country: String!, $after: String!) {
     			attr_dev(filter3, "height", "157.822");
     			attr_dev(filter3, "filterUnits", "userSpaceOnUse");
     			attr_dev(filter3, "color-interpolation-filters", "sRGB");
-    			add_location(filter3, file$e, 220, 4, 8428);
+    			add_location(filter3, file$f, 220, 4, 8428);
     			attr_dev(feFlood4, "flood-opacity", "0");
     			attr_dev(feFlood4, "result", "BackgroundImageFix");
-    			add_location(feFlood4, file$e, 256, 6, 9425);
+    			add_location(feFlood4, file$f, 256, 6, 9425);
     			attr_dev(feColorMatrix8, "in", "SourceAlpha");
     			attr_dev(feColorMatrix8, "type", "matrix");
     			attr_dev(feColorMatrix8, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0");
-    			add_location(feColorMatrix8, file$e, 257, 6, 9489);
+    			add_location(feColorMatrix8, file$f, 257, 6, 9489);
     			attr_dev(feOffset4, "dy", "4");
-    			add_location(feOffset4, file$e, 261, 6, 9619);
+    			add_location(feOffset4, file$f, 261, 6, 9619);
     			attr_dev(feGaussianBlur4, "stdDeviation", "2");
-    			add_location(feGaussianBlur4, file$e, 262, 6, 9645);
+    			add_location(feGaussianBlur4, file$f, 262, 6, 9645);
     			attr_dev(feColorMatrix9, "type", "matrix");
     			attr_dev(feColorMatrix9, "values", "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0");
-    			add_location(feColorMatrix9, file$e, 263, 6, 9687);
+    			add_location(feColorMatrix9, file$f, 263, 6, 9687);
     			attr_dev(feBlend8, "mode", "normal");
     			attr_dev(feBlend8, "in2", "BackgroundImageFix");
     			attr_dev(feBlend8, "result", "effect1_dropShadow");
-    			add_location(feBlend8, file$e, 266, 6, 9793);
+    			add_location(feBlend8, file$f, 266, 6, 9793);
     			attr_dev(feBlend9, "mode", "normal");
     			attr_dev(feBlend9, "in", "SourceGraphic");
     			attr_dev(feBlend9, "in2", "effect1_dropShadow");
     			attr_dev(feBlend9, "result", "shape");
-    			add_location(feBlend9, file$e, 270, 6, 9902);
+    			add_location(feBlend9, file$f, 270, 6, 9902);
     			attr_dev(filter4, "id", "filter4_d");
     			attr_dev(filter4, "x", "224.855");
     			attr_dev(filter4, "y", "480.96");
@@ -17365,22 +17486,22 @@ query($country: String!, $after: String!) {
     			attr_dev(filter4, "height", "248.649");
     			attr_dev(filter4, "filterUnits", "userSpaceOnUse");
     			attr_dev(filter4, "color-interpolation-filters", "sRGB");
-    			add_location(filter4, file$e, 248, 4, 9233);
+    			add_location(filter4, file$f, 248, 4, 9233);
     			attr_dev(rect, "width", "512.001");
     			attr_dev(rect, "height", "512.001");
     			attr_dev(rect, "fill", "white");
     			attr_dev(rect, "transform", "matrix(-0.707107 -0.707107 -0.707107 0.707107 725.04 363)");
-    			add_location(rect, file$e, 277, 6, 10065);
+    			add_location(rect, file$f, 277, 6, 10065);
     			attr_dev(clipPath, "id", "clip0");
-    			add_location(clipPath, file$e, 276, 4, 10037);
-    			add_location(defs, file$e, 135, 2, 6006);
+    			add_location(clipPath, file$f, 276, 4, 10037);
+    			add_location(defs, file$f, 135, 2, 6006);
     			attr_dev(svg, "width", "75");
     			attr_dev(svg, "height", "75");
     			attr_dev(svg, "viewBox", "0 0 726 726");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "class", "svelte-1j2qzve");
-    			add_location(svg, file$e, 59, 0, 879);
+    			add_location(svg, file$f, 59, 0, 879);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -17501,7 +17622,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$g.name,
+    		id: create_fragment$h.name,
     		type: "component",
     		source: "",
     		ctx
@@ -17510,7 +17631,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$g($$self, $$props, $$invalidate) {
+    function instance$h($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Rocket", slots, []);
     	let flying = false;
@@ -17541,22 +17662,22 @@ query($country: String!, $after: String!) {
     class Rocket extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$g, create_fragment$g, safe_not_equal, {});
+    		init(this, options, instance$h, create_fragment$h, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Rocket",
     			options,
-    			id: create_fragment$g.name
+    			id: create_fragment$h.name
     		});
     	}
     }
 
     /* src/components/IllustrationComponents/Nature.svelte generated by Svelte v3.31.0 */
 
-    const file$f = "src/components/IllustrationComponents/Nature.svelte";
+    const file$g = "src/components/IllustrationComponents/Nature.svelte";
 
-    function create_fragment$h(ctx) {
+    function create_fragment$i(ctx) {
     	let svg;
     	let g2;
     	let path0;
@@ -17621,118 +17742,118 @@ query($country: String!, $after: String!) {
     			attr_dev(path0, "id", "Sun");
     			attr_dev(path0, "d", "M181.511 107.718C197.076 107.718 209.694 96.6322 209.694 82.9567C209.694 69.2812 197.076 58.1951 181.511 58.1951C165.946 58.1951 153.328 69.2812 153.328 82.9567C153.328 96.6322 165.946 107.718 181.511 107.718Z");
     			attr_dev(path0, "fill", "#FF6584");
-    			add_location(path0, file$f, 99, 4, 2209);
+    			add_location(path0, file$g, 99, 4, 2209);
     			attr_dev(path1, "id", "Vector");
     			attr_dev(path1, "d", "M258.819 101.419C258.881 101.409 258.928 101.371 259 101.38C258.968 101.273 258.927 101.168 258.877 101.067C258.787 101.174 258.695 101.284 258.615 101.38L258.819 101.419Z");
     			attr_dev(path1, "fill", "white");
-    			add_location(path1, file$f, 103, 4, 2478);
+    			add_location(path1, file$g, 103, 4, 2478);
     			attr_dev(path2, "id", "Vector_2");
     			attr_dev(path2, "d", "M69.7914 141.563C69.956 146.965 70.9859 152.32 72.8508 157.47C72.8935 157.59 72.9381 157.707 72.9828 157.827H84.4005C84.3883 157.72 84.3762 157.6 84.364 157.47C83.6027 149.78 79.2134 102.979 84.4614 94.9755C84.0026 95.6247 68.9062 117.129 69.7914 141.563Z");
     			attr_dev(path2, "fill", "#E6E6E6");
-    			add_location(path2, file$f, 107, 4, 2710);
+    			add_location(path2, file$g, 107, 4, 2710);
     			attr_dev(path3, "id", "Vector_3");
     			attr_dev(path3, "d", "M70.6481 157.47C70.7435 157.59 70.843 157.709 70.9445 157.827H79.5098C79.4448 157.725 79.3697 157.606 79.2824 157.47C77.8674 155.226 73.6791 148.518 69.7913 141.563C65.6132 134.089 61.7803 126.332 62.1031 123.524C62.0036 124.157 59.1126 143.461 70.6481 157.47Z");
     			attr_dev(path3, "fill", "#E6E6E6");
-    			add_location(path3, file$f, 111, 4, 3030);
+    			add_location(path3, file$g, 111, 4, 3030);
     			attr_dev(path4, "id", "Vector_4");
     			attr_dev(path4, "d", "M159.654 158.756C159.51 163.466 158.612 168.135 156.987 172.625C156.949 172.729 156.91 172.831 156.872 172.936H146.917C146.928 172.842 146.939 172.738 146.949 172.625C147.613 165.921 151.44 125.119 146.864 118.141C147.264 118.707 160.426 137.455 159.654 158.756Z");
     			attr_dev(path4, "fill", "#E6E6E6");
-    			add_location(path4, file$f, 115, 4, 3355);
+    			add_location(path4, file$g, 115, 4, 3355);
     			attr_dev(path5, "id", "Vector_5");
     			attr_dev(path5, "d", "M158.907 172.625C158.824 172.729 158.737 172.833 158.649 172.936H151.181C151.238 172.847 151.303 172.743 151.379 172.625C152.613 170.668 156.264 164.82 159.654 158.756C163.296 152.241 166.638 145.478 166.357 143.03C166.443 143.582 168.964 160.411 158.907 172.625Z");
     			attr_dev(path5, "fill", "#E6E6E6");
-    			add_location(path5, file$f, 119, 4, 3682);
+    			add_location(path5, file$g, 119, 4, 3682);
     			attr_dev(path6, "id", "Bird1");
     			attr_dev(path6, "d", "M45.8401 20.0986L50.4821 16.8366C46.876 16.487 45.3942 18.215 44.7878 19.5827C41.9705 18.5549 38.9036 19.9019 38.9036 19.9019L48.1914 22.8644C47.7228 21.7648 46.9072 20.8054 45.8401 20.0986V20.0986Z");
     			attr_dev(path6, "fill", "#3F3D56");
     			attr_dev(path6, "class", "svelte-birvnm");
-    			add_location(path6, file$f, 123, 4, 4010);
+    			add_location(path6, file$g, 123, 4, 4010);
     			attr_dev(path7, "id", "Bird2");
     			attr_dev(path7, "d", "M185.654 3.30772L190.296 0.0456834C186.69 -0.303879 185.208 1.42411 184.602 2.79182C181.785 1.76399 178.718 3.11101 178.718 3.11101L188.006 6.07351C187.537 4.97393 186.721 4.0145 185.654 3.30772V3.30772Z");
     			attr_dev(path7, "fill", "#3F3D56");
     			attr_dev(path7, "class", "svelte-birvnm");
-    			add_location(path7, file$f, 127, 4, 4270);
+    			add_location(path7, file$g, 127, 4, 4270);
     			attr_dev(path8, "id", "Vector_6");
     			attr_dev(path8, "d", "M253.953 132.306C253.953 135.009 253.846 137.689 253.632 140.348C251.978 161.324 243.7 181.478 229.728 198.548C227.902 200.787 225.985 202.964 223.976 205.077C218.772 210.561 212.994 215.604 206.717 220.14L179.205 205.956L162.756 172.224C162.756 172.224 187.299 128.564 253.91 129.355C253.937 130.335 253.952 131.319 253.953 132.306Z");
     			attr_dev(path8, "fill", "#3F3D56");
-    			add_location(path8, file$f, 131, 4, 4535);
+    			add_location(path8, file$g, 131, 4, 4535);
     			attr_dev(path9, "id", "Vector_7");
     			attr_dev(path9, "d", "M253.632 140.348C252.366 156.022 247.417 171.296 239.095 185.205C230.774 199.115 219.261 211.358 205.284 221.162L179.725 207.986L165.138 178.069C165.138 178.069 188.776 136.02 253.632 140.348Z");
     			attr_dev(path9, "fill", "#1E77FD");
-    			add_location(path9, file$f, 135, 4, 4933);
+    			add_location(path9, file$g, 135, 4, 4933);
     			attr_dev(path10, "id", "Vector_8");
     			attr_dev(path10, "d", "M229.728 198.548C227.902 200.787 225.985 202.964 223.976 205.077C210.518 219.284 193.321 230.395 173.874 237.449C169.937 238.875 165.906 240.133 161.783 241.222C132.013 248.178 100.473 246.419 71.9434 236.21C43.7275 225.146 20.9262 205.604 7.6348 181.097C5.84856 177.797 4.24227 174.414 2.81592 170.948C27.6923 154.936 76.7107 132.009 130.135 154.288C144.913 160.45 158.109 166.068 169.722 171.14C199.191 183.974 218.804 193.226 229.728 198.548Z");
     			attr_dev(path10, "fill", "#3F3D56");
-    			add_location(path10, file$f, 139, 4, 5190);
+    			add_location(path10, file$g, 139, 4, 5190);
     			attr_dev(path11, "id", "Vector_9");
     			attr_dev(path11, "d", "M223.976 205.077C210.064 219.726 192.182 231.067 171.975 238.054C151.769 245.042 129.887 247.452 108.342 245.064C86.7974 242.676 66.2823 235.566 48.6842 224.388C31.086 213.21 16.97 198.323 7.63477 181.097C28.4107 166.662 76.3296 140.721 128.916 162.647C142.44 168.287 154.514 173.427 165.137 178.069C196.107 191.556 215.184 200.721 223.976 205.077Z");
     			attr_dev(path11, "fill", "#1E77FD");
-    			add_location(path11, file$f, 143, 4, 5700);
+    			add_location(path11, file$g, 143, 4, 5700);
     			attr_dev(path12, "id", "Vector_10");
     			attr_dev(path12, "d", "M187.307 231.76C182.956 233.879 178.471 235.779 173.874 237.448C158.23 243.113 141.471 246.018 124.55 246C104.528 245.993 84.7807 241.908 66.8585 234.066C48.9363 226.223 33.3275 214.837 21.2578 200.801C52.1637 197.938 137.594 194.077 187.307 231.76Z");
     			attr_dev(path12, "fill", "#3F3D56");
-    			add_location(path12, file$f, 147, 4, 6113);
+    			add_location(path12, file$g, 147, 4, 6113);
     			attr_dev(path13, "id", "Vector_11");
     			attr_dev(path13, "d", "M173.874 237.449C149.616 246.212 122.901 248.3 97.2632 243.435C71.6252 238.57 48.2721 226.982 30.2922 210.204C41.5336 208.753 129.79 198.789 173.874 237.449Z");
     			attr_dev(path13, "fill", "#1E77FD");
-    			add_location(path13, file$f, 151, 4, 6428);
+    			add_location(path13, file$g, 151, 4, 6428);
     			attr_dev(path14, "id", "Vector_12");
     			attr_dev(path14, "d", "M232.249 69.2576V69.2611C139.848 9.23674 33.984 51.485 33.1663 51.8094V51.8059C45.1655 41.2646 59.4136 32.9065 75.0947 27.2105C90.7759 21.5144 107.582 18.5923 124.55 18.6113C169.472 18.6113 209.047 38.724 232.249 69.2576Z");
     			attr_dev(path14, "fill", "#E6E6E6");
-    			add_location(path14, file$f, 155, 4, 6651);
+    			add_location(path14, file$g, 155, 4, 6651);
     			attr_dev(path15, "id", "Vector_13");
     			attr_dev(path15, "d", "M40.5772 134.51C56.2084 132.034 64.2183 107.31 58.4679 79.2878C52.7175 51.2657 35.3844 30.5567 19.7533 33.0328C4.12221 35.509 -3.88772 60.2326 1.86265 88.2547C7.61301 116.277 24.9461 136.986 40.5772 134.51Z");
     			attr_dev(path15, "fill", "#3F3D56");
-    			add_location(path15, file$f, 160, 6, 6959);
+    			add_location(path15, file$g, 160, 6, 6959);
     			attr_dev(path16, "id", "Vector_14");
     			attr_dev(path16, "d", "M44.5943 167.236C43.6677 105.686 20.2284 47.9243 19.9919 47.3485L17.8542 48.0259C18.0897 48.5989 41.4003 106.058 42.3221 167.263L44.5943 167.236Z");
     			attr_dev(path16, "fill", "#1E77FD");
-    			add_location(path16, file$f, 164, 6, 7239);
+    			add_location(path16, file$g, 164, 6, 7239);
     			attr_dev(path17, "id", "Vector_15");
     			attr_dev(path17, "d", "M3.00845 76.8082L2.30908 78.7082L30.3705 86.6816L31.0698 84.7815L3.00845 76.8082Z");
     			attr_dev(path17, "fill", "#1E77FD");
-    			add_location(path17, file$f, 168, 6, 7458);
+    			add_location(path17, file$g, 168, 6, 7458);
     			attr_dev(path18, "id", "Vector_16");
     			attr_dev(path18, "d", "M55.7943 74.6679L32.6736 90.756L34.0847 92.3214L57.2054 76.2333L55.7943 74.6679Z");
     			attr_dev(path18, "fill", "#1E77FD");
-    			add_location(path18, file$f, 172, 6, 7613);
+    			add_location(path18, file$g, 172, 6, 7613);
     			attr_dev(g0, "id", "Tree1");
-    			add_location(g0, file$f, 159, 4, 6938);
+    			add_location(g0, file$g, 159, 4, 6938);
     			attr_dev(path19, "id", "Vector_17");
     			attr_dev(path19, "d", "M115.737 125.636C132.924 125.636 146.857 100.659 146.857 69.8472C146.857 39.0358 132.924 14.0582 115.737 14.0582C98.5503 14.0582 84.6174 39.0358 84.6174 69.8472C84.6174 100.659 98.5503 125.636 115.737 125.636Z");
     			attr_dev(path19, "fill", "#3F3D56");
-    			add_location(path19, file$f, 178, 6, 7795);
+    			add_location(path19, file$g, 178, 6, 7795);
     			attr_dev(path20, "id", "Vector_18");
     			attr_dev(path20, "d", "M112.864 161.165C125.327 95.462 112.989 29.9967 112.863 29.3436L110.439 29.7044C110.564 30.3543 122.832 95.4757 110.438 160.81L112.864 161.165Z");
     			attr_dev(path20, "fill", "#1E77FD");
-    			add_location(path20, file$f, 182, 6, 8078);
+    			add_location(path20, file$g, 182, 6, 8078);
     			attr_dev(path21, "id", "Vector_19");
     			attr_dev(path21, "d", "M88.3389 57.8508L87.179 59.7563L115.32 72.9811L116.48 71.0757L88.3389 57.8508Z");
     			attr_dev(path21, "fill", "#1E77FD");
-    			add_location(path21, file$f, 186, 6, 8295);
+    			add_location(path21, file$g, 186, 6, 8295);
     			attr_dev(path22, "id", "Vector_20");
     			attr_dev(path22, "d", "M145.02 64.4755L116.882 77.7079L118.043 79.613L146.18 66.3806L145.02 64.4755Z");
     			attr_dev(path22, "fill", "#1E77FD");
-    			add_location(path22, file$f, 190, 6, 8447);
+    			add_location(path22, file$g, 190, 6, 8447);
     			attr_dev(g1, "id", "Tree2");
-    			add_location(g1, file$f, 177, 4, 7774);
+    			add_location(g1, file$g, 177, 4, 7774);
     			attr_dev(path23, "id", "Vector_21");
     			attr_dev(path23, "d", "M250.913 107.69C239.495 102.058 227.566 97.2662 215.248 93.3636C147.136 71.7093 79.5965 80.0551 53.1602 111.045C73.7337 73.0799 147.144 61.142 221.225 84.6935C229.848 87.4322 238.286 90.5994 246.499 94.1797C248.288 98.5983 249.762 103.111 250.913 107.69V107.69Z");
     			attr_dev(path23, "fill", "#E6E6E6");
-    			add_location(path23, file$f, 195, 4, 8605);
+    			add_location(path23, file$g, 195, 4, 8605);
     			attr_dev(path24, "id", "Bird3");
     			attr_dev(path24, "d", "M158.924 46.5965L163.566 43.3345C159.96 42.9849 158.478 44.7129 157.872 46.0806C155.054 45.0528 151.987 46.3998 151.987 46.3998L161.275 49.3623C160.807 48.2628 159.991 47.3033 158.924 46.5965Z");
     			attr_dev(path24, "fill", "#3F3D56");
     			attr_dev(path24, "class", "svelte-birvnm");
-    			add_location(path24, file$f, 199, 4, 8932);
+    			add_location(path24, file$g, 199, 4, 8932);
     			attr_dev(g2, "id", "undraw_nature_m5ll 1");
-    			add_location(g2, file$f, 98, 2, 2175);
+    			add_location(g2, file$g, 98, 2, 2175);
     			attr_dev(svg, "width", /*height*/ ctx[0]);
     			attr_dev(svg, "height", /*width*/ ctx[1]);
     			attr_dev(svg, "viewBox", "0 0 259 246");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg, file$f, 92, 0, 2058);
+    			add_location(svg, file$g, 92, 0, 2058);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -17778,7 +17899,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$h.name,
+    		id: create_fragment$i.name,
     		type: "component",
     		source: "",
     		ctx
@@ -17787,7 +17908,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$h($$self, $$props, $$invalidate) {
+    function instance$i($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Nature", slots, []);
     	let { sizeFactor = 1 } = $$props;
@@ -17819,13 +17940,13 @@ query($country: String!, $after: String!) {
     class Nature extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$h, create_fragment$h, safe_not_equal, { sizeFactor: 2 });
+    		init(this, options, instance$i, create_fragment$i, safe_not_equal, { sizeFactor: 2 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Nature",
     			options,
-    			id: create_fragment$h.name
+    			id: create_fragment$i.name
     		});
     	}
 
@@ -17839,31 +17960,11 @@ query($country: String!, $after: String!) {
     }
 
     /* src/components/Home.svelte generated by Svelte v3.31.0 */
-    const file$g = "src/components/Home.svelte";
+    const file$h = "src/components/Home.svelte";
 
-    function create_fragment$i(ctx) {
-    	let div3;
-    	let div1;
-    	let svg;
-    	let path;
-    	let path_d_value;
-    	let svg_viewBox_value;
-    	let t0;
-    	let div0;
+    // (136:4) {:else}
+    function create_else_block$7(ctx) {
     	let nature;
-    	let t1;
-    	let section;
-    	let div2;
-    	let h10;
-    	let t3;
-    	let h11;
-    	let t5;
-    	let h2;
-    	let t7;
-    	let a;
-    	let button;
-    	let div2_intro;
-    	let div3_resize_listener;
     	let current;
 
     	nature = new Nature({
@@ -17873,86 +17974,208 @@ query($country: String!, $after: String!) {
 
     	const block = {
     		c: function create() {
+    			create_component(nature.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(nature, target, anchor);
+    			current = true;
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(nature.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(nature.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(nature, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block$7.name,
+    		type: "else",
+    		source: "(136:4) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (134:4) {#if triangleWidth < 360}
+    function create_if_block$7(ctx) {
+    	let nature;
+    	let current;
+
+    	nature = new Nature({
+    			props: { sizeFactor: 0.4 },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(nature.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(nature, target, anchor);
+    			current = true;
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(nature.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(nature.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(nature, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block$7.name,
+    		type: "if",
+    		source: "(134:4) {#if triangleWidth < 360}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function create_fragment$j(ctx) {
+    	let div3;
+    	let div0;
+    	let svg;
+    	let path;
+    	let path_d_value;
+    	let svg_viewBox_value;
+    	let t0;
+    	let div1;
+    	let current_block_type_index;
+    	let if_block;
+    	let t1;
+    	let section;
+    	let div2;
+    	let span0;
+    	let t3;
+    	let span1;
+    	let t5;
+    	let span2;
+    	let t7;
+    	let span3;
+    	let t9;
+    	let button;
+    	let div2_intro;
+    	let div3_resize_listener;
+    	let current;
+    	let mounted;
+    	let dispose;
+    	const if_block_creators = [create_if_block$7, create_else_block$7];
+    	const if_blocks = [];
+
+    	function select_block_type(ctx, dirty) {
+    		if (/*triangleWidth*/ ctx[2] < 360) return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type(ctx);
+    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+    	const block = {
+    		c: function create() {
     			div3 = element("div");
-    			div1 = element("div");
+    			div0 = element("div");
     			svg = svg_element("svg");
     			path = svg_element("path");
     			t0 = space();
-    			div0 = element("div");
-    			create_component(nature.$$.fragment);
+    			div1 = element("div");
+    			if_block.c();
     			t1 = space();
     			section = element("section");
     			div2 = element("div");
-    			h10 = element("h1");
-    			h10.textContent = "Build";
+    			span0 = element("span");
+    			span0.textContent = "Air pollution will influence";
     			t3 = space();
-    			h11 = element("h1");
-    			h11.textContent = "outstanding";
+    			span1 = element("span");
+    			span1.textContent = "the quality of our future.";
     			t5 = space();
-    			h2 = element("h2");
-    			h2.textContent = "Web Applications";
+    			span2 = element("span");
+    			span2.textContent = "This is why AirPoll strives to";
     			t7 = space();
-    			a = element("a");
+    			span3 = element("span");
+    			span3.textContent = "bring transparency to this issue";
+    			t9 = space();
     			button = element("button");
-    			button.textContent = "Let's create";
+    			button.textContent = "Let's see the data";
     			attr_dev(path, "d", path_d_value = "M0 0L" + /*triangleWidth*/ ctx[2] + " " + /*triangleHeight*/ ctx[3] + "H0V0Z");
     			attr_dev(path, "fill", "#1A64D4");
-    			add_location(path, file$g, 119, 6, 2645);
+    			add_location(path, file$h, 129, 6, 2886);
     			attr_dev(svg, "id", "triangle");
     			attr_dev(svg, "width", /*triangleWidth*/ ctx[2]);
     			attr_dev(svg, "height", /*triangleHeight*/ ctx[3]);
     			attr_dev(svg, "viewBox", svg_viewBox_value = "0 0 " + /*triangleWidth*/ ctx[2] + " " + /*triangleHeight*/ ctx[3]);
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			attr_dev(svg, "class", "svelte-12c3qyv");
-    			add_location(svg, file$g, 112, 4, 2443);
-    			attr_dev(div0, "class", "illustrationContainer svelte-12c3qyv");
-    			add_location(div0, file$g, 121, 4, 2731);
-    			attr_dev(div1, "class", "illustration svelte-12c3qyv");
-    			add_location(div1, file$g, 111, 2, 2412);
-    			attr_dev(h10, "class", "svelte-12c3qyv");
-    			add_location(h10, file$g, 128, 6, 2879);
-    			attr_dev(h11, "class", "outstanding svelte-12c3qyv");
-    			add_location(h11, file$g, 129, 6, 2900);
-    			attr_dev(h2, "class", "svelte-12c3qyv");
-    			add_location(h2, file$g, 130, 6, 2947);
-    			attr_dev(button, "class", "primaryButton svelte-12c3qyv");
-    			add_location(button, file$g, 131, 25, 2998);
-    			attr_dev(a, "href", "#contact");
-    			attr_dev(a, "class", "svelte-12c3qyv");
-    			add_location(a, file$g, 131, 6, 2979);
-    			attr_dev(div2, "class", "description svelte-12c3qyv");
-    			add_location(div2, file$g, 127, 4, 2839);
-    			attr_dev(section, "class", "svelte-12c3qyv");
-    			add_location(section, file$g, 126, 2, 2825);
-    			attr_dev(div3, "class", "sectionContainer svelte-12c3qyv");
-    			add_render_callback(() => /*div3_elementresize_handler*/ ctx[4].call(div3));
-    			add_location(div3, file$g, 110, 0, 2336);
+    			attr_dev(svg, "class", "svelte-1e34d3t");
+    			add_location(svg, file$h, 122, 4, 2684);
+    			attr_dev(div0, "class", "illustration svelte-1e34d3t");
+    			add_location(div0, file$h, 121, 2, 2653);
+    			attr_dev(div1, "class", "illustrationContainer svelte-1e34d3t");
+    			add_location(div1, file$h, 132, 2, 2979);
+    			attr_dev(span0, "class", "is-size-2");
+    			add_location(span0, file$h, 141, 6, 3201);
+    			attr_dev(span1, "class", "is-size-2");
+    			add_location(span1, file$h, 142, 6, 3268);
+    			attr_dev(span2, "class", "is-size-4");
+    			add_location(span2, file$h, 143, 6, 3332);
+    			attr_dev(span3, "class", "is-size-4");
+    			add_location(span3, file$h, 144, 6, 3400);
+    			attr_dev(button, "class", "primaryButton button is-rounded svelte-1e34d3t");
+    			add_location(button, file$h, 145, 6, 3470);
+    			attr_dev(div2, "class", "description svelte-1e34d3t");
+    			add_location(div2, file$h, 140, 4, 3161);
+    			attr_dev(section, "class", "svelte-1e34d3t");
+    			add_location(section, file$h, 139, 2, 3147);
+    			attr_dev(div3, "class", "sectionContainer svelte-1e34d3t");
+    			add_render_callback(() => /*div3_elementresize_handler*/ ctx[5].call(div3));
+    			add_location(div3, file$h, 120, 0, 2577);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div3, anchor);
-    			append_dev(div3, div1);
-    			append_dev(div1, svg);
+    			append_dev(div3, div0);
+    			append_dev(div0, svg);
     			append_dev(svg, path);
-    			append_dev(div1, t0);
-    			append_dev(div1, div0);
-    			mount_component(nature, div0, null);
+    			append_dev(div3, t0);
+    			append_dev(div3, div1);
+    			if_blocks[current_block_type_index].m(div1, null);
     			append_dev(div3, t1);
     			append_dev(div3, section);
     			append_dev(section, div2);
-    			append_dev(div2, h10);
+    			append_dev(div2, span0);
     			append_dev(div2, t3);
-    			append_dev(div2, h11);
+    			append_dev(div2, span1);
     			append_dev(div2, t5);
-    			append_dev(div2, h2);
+    			append_dev(div2, span2);
     			append_dev(div2, t7);
-    			append_dev(div2, a);
-    			append_dev(a, button);
-    			div3_resize_listener = add_resize_listener(div3, /*div3_elementresize_handler*/ ctx[4].bind(div3));
+    			append_dev(div2, span3);
+    			append_dev(div2, t9);
+    			append_dev(div2, button);
+    			div3_resize_listener = add_resize_listener(div3, /*div3_elementresize_handler*/ ctx[5].bind(div3));
     			current = true;
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*click_handler*/ ctx[4], false, false, false);
+    				mounted = true;
+    			}
     		},
     		p: function update(ctx, [dirty]) {
     			if (!current || dirty & /*triangleWidth, triangleHeight*/ 12 && path_d_value !== (path_d_value = "M0 0L" + /*triangleWidth*/ ctx[2] + " " + /*triangleHeight*/ ctx[3] + "H0V0Z")) {
@@ -17970,10 +18193,34 @@ query($country: String!, $after: String!) {
     			if (!current || dirty & /*triangleWidth, triangleHeight*/ 12 && svg_viewBox_value !== (svg_viewBox_value = "0 0 " + /*triangleWidth*/ ctx[2] + " " + /*triangleHeight*/ ctx[3])) {
     				attr_dev(svg, "viewBox", svg_viewBox_value);
     			}
+
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type(ctx);
+
+    			if (current_block_type_index !== previous_block_index) {
+    				group_outros();
+
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
+    				});
+
+    				check_outros();
+    				if_block = if_blocks[current_block_type_index];
+
+    				if (!if_block) {
+    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block.c();
+    				} else {
+    					if_block.p(ctx, dirty);
+    				}
+
+    				transition_in(if_block, 1);
+    				if_block.m(div1, null);
+    			}
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(nature.$$.fragment, local);
+    			transition_in(if_block);
 
     			if (!div2_intro) {
     				add_render_callback(() => {
@@ -17985,19 +18232,21 @@ query($country: String!, $after: String!) {
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(nature.$$.fragment, local);
+    			transition_out(if_block);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div3);
-    			destroy_component(nature);
+    			if_blocks[current_block_type_index].d();
     			div3_resize_listener();
+    			mounted = false;
+    			dispose();
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$i.name,
+    		id: create_fragment$j.name,
     		type: "component",
     		source: "",
     		ctx
@@ -18006,7 +18255,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$i($$self, $$props, $$invalidate) {
+    function instance$j($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Home", slots, []);
     	let h = 0;
@@ -18017,6 +18266,8 @@ query($country: String!, $after: String!) {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Home> was created with unknown prop '${key}'`);
     	});
 
+    	const click_handler = () => navigate("/dashboard");
+
     	function div3_elementresize_handler() {
     		w = this.clientWidth;
     		h = this.clientHeight;
@@ -18026,6 +18277,7 @@ query($country: String!, $after: String!) {
 
     	$$self.$capture_state = () => ({
     		fade,
+    		navigate,
     		Nature,
     		h,
     		w,
@@ -18057,19 +18309,19 @@ query($country: String!, $after: String!) {
     		}
     	};
 
-    	return [h, w, triangleWidth, triangleHeight, div3_elementresize_handler];
+    	return [h, w, triangleWidth, triangleHeight, click_handler, div3_elementresize_handler];
     }
 
     class Home extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$i, create_fragment$i, safe_not_equal, {});
+    		init(this, options, instance$j, create_fragment$j, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "Home",
     			options,
-    			id: create_fragment$i.name
+    			id: create_fragment$j.name
     		});
     	}
     }
@@ -18098,7 +18350,7 @@ query($country: String!, $after: String!) {
 
     const { Object: Object_1 } = globals;
 
-    function create_fragment$j(ctx) {
+    function create_fragment$k(ctx) {
     	let current;
     	const default_slot_template = /*#slots*/ ctx[2].default;
     	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[1], null);
@@ -18140,7 +18392,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$j.name,
+    		id: create_fragment$k.name,
     		type: "component",
     		source: "",
     		ctx
@@ -18149,7 +18401,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$j($$self, $$props, $$invalidate) {
+    function instance$k($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("ThemeContext", slots, ['default']);
     	
@@ -18236,13 +18488,13 @@ query($country: String!, $after: String!) {
     class ThemeContext extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$j, create_fragment$j, safe_not_equal, { themes: 0 });
+    		init(this, options, instance$k, create_fragment$k, safe_not_equal, { themes: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "ThemeContext",
     			options,
-    			id: create_fragment$j.name
+    			id: create_fragment$k.name
     		});
     	}
 
@@ -18258,7 +18510,7 @@ query($country: String!, $after: String!) {
     /* src/App.svelte generated by Svelte v3.31.0 */
 
     const { console: console_1$4 } = globals;
-    const file$h = "src/App.svelte";
+    const file$i = "src/App.svelte";
 
     // (65:3) <Route path="/">
     function create_default_slot_3(ctx) {
@@ -18339,7 +18591,7 @@ query($country: String!, $after: String!) {
     }
 
     // (71:3) {#if scrollTop > 160}
-    function create_if_block$7(ctx) {
+    function create_if_block$8(ctx) {
     	let div;
     	let rocket;
     	let current;
@@ -18352,7 +18604,7 @@ query($country: String!, $after: String!) {
     			div = element("div");
     			create_component(rocket.$$.fragment);
     			attr_dev(div, "class", "toTopButton svelte-1cqzh7v");
-    			add_location(div, file$h, 71, 4, 2250);
+    			add_location(div, file$i, 71, 4, 2250);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -18384,7 +18636,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$7.name,
+    		id: create_if_block$8.name,
     		type: "if",
     		source: "(71:3) {#if scrollTop > 160}",
     		ctx
@@ -18423,7 +18675,7 @@ query($country: String!, $after: String!) {
     			$$inline: true
     		});
 
-    	let if_block = /*scrollTop*/ ctx[1] > 160 && create_if_block$7(ctx);
+    	let if_block = /*scrollTop*/ ctx[1] > 160 && create_if_block$8(ctx);
 
     	const block = {
     		c: function create() {
@@ -18471,7 +18723,7 @@ query($country: String!, $after: String!) {
     						transition_in(if_block, 1);
     					}
     				} else {
-    					if_block = create_if_block$7(ctx);
+    					if_block = create_if_block$8(ctx);
     					if_block.c();
     					transition_in(if_block, 1);
     					if_block.m(if_block_anchor.parentNode, if_block_anchor);
@@ -18581,7 +18833,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function create_fragment$k(ctx) {
+    function create_fragment$l(ctx) {
     	let main;
     	let themecontext;
     	let current;
@@ -18601,7 +18853,7 @@ query($country: String!, $after: String!) {
     			main = element("main");
     			create_component(themecontext.$$.fragment);
     			attr_dev(main, "class", "home svelte-1cqzh7v");
-    			add_location(main, file$h, 60, 0, 2041);
+    			add_location(main, file$i, 60, 0, 2041);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -18644,7 +18896,7 @@ query($country: String!, $after: String!) {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$k.name,
+    		id: create_fragment$l.name,
     		type: "component",
     		source: "",
     		ctx
@@ -18653,7 +18905,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    function instance$k($$self, $$props, $$invalidate) {
+    function instance$l($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("App", slots, []);
 
@@ -18762,13 +19014,13 @@ query($country: String!, $after: String!) {
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$k, create_fragment$k, safe_not_equal, { url: 0 });
+    		init(this, options, instance$l, create_fragment$l, safe_not_equal, { url: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "App",
     			options,
-    			id: create_fragment$k.name
+    			id: create_fragment$l.name
     		});
     	}
 
