@@ -12,3 +12,13 @@ export interface Key {
   name: string;
   internalName: string;
 }
+
+export interface CitiesStartsWith{
+  data:{
+    citiesStartsWith: Array<CitiesResult>
+  }
+}
+
+export interface CitiesResult{
+  name: string
+}

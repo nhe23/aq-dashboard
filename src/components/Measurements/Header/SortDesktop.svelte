@@ -1,15 +1,10 @@
 <script lang="ts">
   import type { Columns } from "../../../types";
-  export let measurmentsKeys: Array<Columns>;
+  export let measurementsColumns: Array<Columns>;
   export let sort: (key: string) => void;
 </script>
 
 <style>
-  .column {
-    display: grid;
-    /* place-items: center; */
-  }
-
   .headerField {
     display: flex;
     align-items: center;
@@ -27,13 +22,13 @@
   }
 </style>
 
-<div class="box headerBox">
+<div data-testid="sortDesktop" class="box headerBox">
   <div class="container">
     <div class="columns">
-      {#each measurmentsKeys as header}
+      {#each measurementsColumns as header,i}
         <div class="column is-2 is-flex is-flex-direction-column">
-          {#each header.keys as key}
-            <div class="headerField" on:click={() => sort(key.internalName)}>
+          {#each header.keys as key,ii}
+            <div data-testid="header{i}{ii}" class="headerField" on:click={() => sort(key.internalName)}>
               <span>{key.name}</span>
               <span class="icon is-small has-text-link sortIcon">
                 <i class="fas fa-sort" />

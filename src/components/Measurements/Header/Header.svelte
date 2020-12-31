@@ -5,9 +5,8 @@
   import FilterMobile from "../Filter/FilterMobile.svelte";
   import SortDesktop from "./SortDesktop.svelte";
   import SortMobile from "./SortMobile.svelte";
-  export let measurmentsKeys: Array<Columns>;
-  let w;
-
+  export let measurementsColumns: Array<Columns>;
+  
   const dispatch = createEventDispatcher();
 
   function sort(key: string) {
@@ -31,15 +30,15 @@
   }
 </style>
 
-<div class="header">
+<div class="header" data-testid="header">
   <div class="hidden-mobile">
-    <SortDesktop {measurmentsKeys} {sort} />
+    <SortDesktop {measurementsColumns} {sort} />
   </div>
   <div class="hidden-desktop">
     <div class="is-hidden-tablet">
       <FilterMobile />
     </div>
-    <SortMobile {measurmentsKeys} {sort} />
+    <SortMobile {measurementsColumns} {sort} />
   </div>
 </div>
 <div class="is-hidden-tablet description">

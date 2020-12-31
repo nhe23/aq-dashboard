@@ -68,3 +68,11 @@ query($country: String!, $after: String!) {
     }
   }
 }`;
+
+export const CITIES_STARTWITH = gql`
+    query($searchString: String!) {
+      citiesStartsWith(searchString: $searchString) {
+        name
+      }
+    }
+  `;

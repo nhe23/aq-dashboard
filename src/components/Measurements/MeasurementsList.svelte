@@ -2,7 +2,7 @@
   import { client } from "../../apollo";
   import { query } from "svelte-apollo";
   import { onMount } from "svelte";
-  import type { Columns } from "../../types";
+  import { measurementsColumns } from "./Header/columns";
   import Measurement from "./Measurement.svelte";
   import MeasurementsHeader from "./Header/Header.svelte";
   import { filterStore } from "../../store";
@@ -20,46 +20,6 @@
   let fetching = false;
   let reachedEndResult = false;
 
-  let measurmentsKeys: Array<Columns> = [
-    {
-      sizeClass: "is-2",
-      keys: [{ sortedDesc: false, name: "Location", internalName: "location" }],
-    },
-    {
-      sizeClass: "is-2",
-      keys: [
-        { sortedDesc: false, name: "City", internalName: "city" },
-        { sortedDesc: false, name: "Country", internalName: "country" },
-      ],
-    },
-    {
-      sizeClass: "is-2",
-      keys: [
-        { sortedDesc: false, name: "Parameter", internalName: "parameter" },
-      ],
-    },
-    {
-      sizeClass: "is-2",
-      keys: [{ sortedDesc: false, name: "Value", internalName: "value" }],
-    },
-    {
-      sizeClass: "is-2",
-      keys: [
-        { sortedDesc: false, name: "Longitude", internalName: "longitude" },
-        { sortedDesc: false, name: "Latitude", internalName: "latitude" },
-      ],
-    },
-    {
-      sizeClass: "is-2",
-      keys: [
-        { sortedDesc: false, name: "Updated", internalName: "lastUpdated" },
-      ],
-    },
-    // {
-    //   sizeClass: "is-2",
-    //   keys: [{ sortedDesc: false, name: "Updated", internalName: "lastUpdated" }],
-    // },
-  ];
 
   // restore(client, AUTHOR_LIST, authorCache.data);
 
@@ -123,9 +83,9 @@
     const key = event.detail.key;
     console.log(key);
     let sortedDesc: boolean;
-    for (let i = 0; i < measurmentsKeys.length; i++) {
+    for (let i = 0; i < measurementsColumns.length; i++) {
       let found = false;
-      let measurementKey = measurmentsKeys[i].keys;
+      let measurementKey = measurementsColumns[i].keys;
       for (let j = 0; j < measurementKey.length; j++) {
         let k = measurementKey[j];
         if (k.internalName === key) {
@@ -223,7 +183,7 @@
 <svelte:window on:scroll={handleScroll} />
 
 <div class="container">
-  <MeasurementsHeader {measurmentsKeys} on:sort={sortByKey} />
+  <MeasurementsHeader {measurementsColumns} on:sort={sortByKey} />
   {#if loading}
     Loading...
   {:else if error}

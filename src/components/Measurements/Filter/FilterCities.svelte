@@ -1,25 +1,18 @@
 <script lang="ts">
-  import gql from "graphql-tag";
   import { client } from "../../../apollo";
   import { query } from "svelte-apollo";
   import { debounceInput } from "../../../actions/debounceInput";
   import { filterStore } from "../../../store";
+  import type { CitiesResult, CitiesStartsWith } from "../../../types";
+  import {CITIES_STARTWITH} from "../queries"
 
   let showCities = false;
   let placeholder = "Search for city";
   let error: Error;
   let loading = false;
-  let queryCities = [];
-  let searchString = "";
+  let queryCities:Array<CitiesResult> = [];
+  let searchString = "a";
   let inputValue: string;
-
-  const CITIES_STARTWITH = gql`
-    query($searchString: String!) {
-      citiesStartsWith(searchString: $searchString) {
-        name
-      }
-    }
-  `;
 
   async function handleNewValue(e) {
     searchString = e.detail;
@@ -33,14 +26,12 @@
   }
 
   async function fetchCities(searchString: string) {
-    console.log("fetching");
-    console.log(searchString);
     try {
       const citiesResult = query(client, {
         query: CITIES_STARTWITH,
         variables: { searchString },
       });
-      let res = await citiesResult.result();
+      let res = await citiesResult.result() as CitiesStartsWith;
       queryCities = res.data.citiesStartsWith;
     } catch (e) {
       error = e;
@@ -66,7 +57,7 @@
   }
 
   .dropdown-trigger {
-    width:100%
+    width: 100%;
   }
   input {
     background-color: transparent;
@@ -74,12 +65,14 @@
 </style>
 
 <div
+  data-testid="filterCities"
   class="dropdown header"
   class:is-active={showCities && searchString !== ''}>
   <div class="dropdown-trigger">
     <div class="field">
       <div class="control">
         <input
+          data-testid="searchCities"
           on:focus={() => {
             showCities = true;
           }}
@@ -93,7 +86,9 @@
     </div>
   </div>
   <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-    <div class="dropdown-content citiesInput">
+    <div
+      data-testid="citiesDropdownContent"
+      class="dropdown-content citiesInput">
       {#if loading}
         Loading...
       {:else if error}

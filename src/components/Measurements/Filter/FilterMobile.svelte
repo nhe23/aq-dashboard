@@ -37,7 +37,7 @@
   }
 </style>
 
-<div class="box is-flex is-flex-direction-column">
+<div data-testid="filterMobile" class="box is-flex is-flex-direction-column">
   <div on:click={toggleShowFilter} class="headerField">
     <div class="headerText">Filter by</div>
     {#if showFilter}
