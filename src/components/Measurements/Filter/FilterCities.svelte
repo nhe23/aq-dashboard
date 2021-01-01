@@ -4,13 +4,13 @@
   import { debounceInput } from "../../../actions/debounceInput";
   import { filterStore } from "../../../store";
   import type { CitiesResult, CitiesStartsWith } from "../../../types";
-  import {CITIES_STARTWITH} from "../queries"
+  import { CITIES_STARTWITH } from "../queries";
 
   let showCities = false;
   let placeholder = "Search for city";
   let error: Error;
   let loading = false;
-  let queryCities:Array<CitiesResult> = [];
+  let queryCities: Array<CitiesResult> = [];
   let searchString = "a";
   let inputValue: string;
 
@@ -19,7 +19,7 @@
     await fetchCities(searchString);
   }
 
-  function select(e: Event, result) {
+  function select(e: Event, result:CitiesResult) {
     inputValue = result.name;
     filterStore.set({ key: "city", value: inputValue });
     showCities = false;
@@ -31,7 +31,7 @@
         query: CITIES_STARTWITH,
         variables: { searchString },
       });
-      let res = await citiesResult.result() as CitiesStartsWith;
+      let res = (await citiesResult.result()) as CitiesStartsWith;
       queryCities = res.data.citiesStartsWith;
     } catch (e) {
       error = e;
@@ -95,8 +95,9 @@
         Error loading countries:
         {error}
       {:else}
-        {#each queryCities as result}
+        {#each queryCities as result, i}
           <div
+            data-testid="city{i}"
             class="dropdown-item selectable"
             on:click={(e) => select(e, result)}>
             {result.name}

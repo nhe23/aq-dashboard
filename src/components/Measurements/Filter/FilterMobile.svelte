@@ -38,7 +38,7 @@
 </style>
 
 <div data-testid="filterMobile" class="box is-flex is-flex-direction-column">
-  <div on:click={toggleShowFilter} class="headerField">
+  <div on:click={toggleShowFilter} class="headerField" data-testid="filterMobileToggle">
     <div class="headerText">Filter by</div>
     {#if showFilter}
       <span class="icon is-small has-text-link sortIcon">

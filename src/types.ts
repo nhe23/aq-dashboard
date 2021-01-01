@@ -1,6 +1,4 @@
-export interface MeasurementResult {
-
-}
+export interface MeasurementResult {}
 
 export interface Columns {
   sizeClass: string;
@@ -13,12 +11,37 @@ export interface Key {
   internalName: string;
 }
 
-export interface CitiesStartsWith{
-  data:{
-    citiesStartsWith: Array<CitiesResult>
-  }
+export interface CitiesStartsWith {
+  data: {
+    citiesStartsWith: Array<CitiesResult>;
+  };
 }
 
-export interface CitiesResult{
-  name: string
+export interface CitiesResult {
+  name: string;
+}
+
+export interface Countries {
+  data: {
+    countries: Array<Country>;
+  };
+}
+
+export interface Country {
+  name: string;
+  code: string;
+}
+
+export interface MeasurementResult {
+  _id: string;
+  country: string;
+  city: string;
+  location: string;
+  longitude: number;
+  latitude: number;
+  parameter: string;
+  value: number;
+  lastUpdated: Date;
+  unit: string;
+  qualityIndex: number;
 }

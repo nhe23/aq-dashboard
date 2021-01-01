@@ -1,5 +1,6 @@
 <script lang="ts">
-  export let result;
+  import type { MeasurementResult } from "../../types";
+  export let result: MeasurementResult;
 </script>
 
 <style>
@@ -20,43 +21,45 @@
     margin-bottom: 15px;
   }
 
-  .index0{
+  .index0 {
     border-right: 10px solid gray;
   }
 
-  .index1{
+  .index1 {
     border-right: 10px solid green;
   }
 
-  .index2{
+  .index2 {
     border-right: 10px solid #48c774;
   }
 
-  .index3{
+  .index3 {
     border-right: 10px solid #f9dd57;
   }
 
-  .index4{
+  .index4 {
     border-right: 10px solid orange;
   }
 
-  .index5{
+  .index5 {
     border-right: 10px solid rgb(255, 115, 0);
   }
 
-  .index6{
+  .index6 {
     border-right: 10px solid #f14668;
   }
 
-  .desktopContainer{
+  .desktopContainer {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
 </style>
 
-<div class="container hidden-mobile index{result.qualityIndex} desktopContainer">
+<div
+  class="container hidden-mobile index{result.qualityIndex} desktopContainer"
+  data-testid="measurementDesktop">
   <div class="columns">
-    <div class="column is-2"><span>{result.location}</span></div>
+    <div class="column is-2"><span data-testid="locationDesktop">{result.location}</span></div>
     <div class="column is-2 is-flex is-flex-direction-column ">
       <span>{result.city}</span><span>{result.country}</span>
     </div>
@@ -70,8 +73,8 @@
   </div>
 </div>
 
-<div class="box hidden-desktop index{result.qualityIndex}">
-  <div class="is-size-4"><span>{result.location}</span></div>
+<div class="box hidden-desktop index{result.qualityIndex}" data-testid="measurementMobile">
+  <div class="is-size-4"><span data-testid="locationMobile">{result.location}</span></div>
   <div class="is-size-5">{result.city} in {result.country}</div>
   <div class="is-size-6">{result.parameter}: {result.value}{result.unit}</div>
   <div class="is-size-6">

@@ -1,58 +1,44 @@
 <script lang="ts">
-  import { onMount, onDestroy } from "svelte";
-  import gql from "graphql-tag";
+  import { onMount } from "svelte";
   import { client } from "../../../apollo";
   import { query } from "svelte-apollo";
-  import { filterStore,filterDefault } from "../../../store";
+  import { filterStore, filterDefault } from "../../../store";
+  import type { Countries, Country } from "../../../types";
+  import { COUNTRIES } from "../queries";
 
   let initialSelected = { name: "All", code: "xx" };
   let selected = initialSelected;
   let showCountries = false;
 
-  let error;
-  let loading;
+  let error: Error;
+  let loading: boolean;
   let queryCountries = [];
 
-  const COUNTRIES = gql`
-    query {
-      countries {
-        name
-        code
-      }
-    }
-  `;
-
-  function select(result) {
+  function select(result: Country) {
     selected = result;
     if (result.name !== "All")
       filterStore.set({ key: "country", value: selected.code });
-    else filterStore.set(filterDefault)
+    else filterStore.set(filterDefault);
     showCountries = false;
   }
 
   async function fetchCountries() {
     try {
+      loading=true;
       const countriesResult = query(client, {
         query: COUNTRIES,
       });
-      let res = await countriesResult.result();
-      queryCountries = res.data.countries;
+      let res: Countries = await countriesResult.result();
+      queryCountries = [initialSelected, ...res.data.countries];
     } catch (e) {
       error = e;
-      throw e;
     }
     loading = false;
   }
 
   onMount(async () => {
-    console.log("mount")
     await fetchCountries();
-    queryCountries.unshift(initialSelected);
   });
-
-  onDestroy(() => {
-    queryCountries.shift()
-  })
 
   filterStore.subscribe((f) => {
     if (f.key !== "country") {
@@ -62,13 +48,12 @@
 </script>
 
 <style>
-
   .dropdown-trigger {
-    width:100%
+    width: 100%;
   }
 
   .button {
-    width:100%
+    width: 100%;
   }
   .dropdown-content {
     max-height: 250px;
@@ -85,12 +70,16 @@
   }
 </style>
 
-<div class="dropdown header" class:is-active={showCountries}>
+<div
+  class="dropdown header"
+  class:is-active={showCountries}
+  data-testid="filterCountries">
   <div class="dropdown-trigger">
     <button
       class="button is-link"
       aria-haspopup="true"
       aria-controls="dropdown-menu-countries"
+      data-testid="filterCountriesButton"
       on:click={() => {
         showCountries = !showCountries;
       }}>
@@ -101,15 +90,17 @@
     </button>
   </div>
   <div class="dropdown-menu" id="dropdown-menu-countries" role="menu">
-    <div class="dropdown-content">
+    <div class="dropdown-content" data-testid="countriesDropdownContent">
       {#if loading}
         Loading...
       {:else if error}
-        Error loading countries:
-        {error}
+        {`Error loading countries: ${error.message}`}
       {:else}
-        {#each queryCountries as result}
-          <div class="dropdown-item selectable" on:click={() => select(result)}>
+        {#each queryCountries as result, i}
+          <div
+            class="dropdown-item selectable"
+            on:click={() => select(result)}
+            data-testid="country{i}">
             {result.name}
           </div>
         {:else}

@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -9844,43 +9844,47 @@ var app = (function () {
     			div12 = element("div");
     			t32 = text("Last updated ");
     			t33 = text(t33_value);
-    			add_location(span0, file$1, 57, 29, 950);
-    			attr_dev(div0, "class", "column is-2 svelte-9a7uol");
-    			add_location(div0, file$1, 57, 4, 925);
-    			add_location(span1, file$1, 59, 6, 1057);
-    			add_location(span2, file$1, 59, 32, 1083);
-    			attr_dev(div1, "class", "column is-2 is-flex is-flex-direction-column  svelte-9a7uol");
-    			add_location(div1, file$1, 58, 4, 991);
-    			add_location(span3, file$1, 61, 30, 1154);
-    			attr_dev(div2, "class", "column is-2  svelte-9a7uol");
-    			add_location(div2, file$1, 61, 4, 1128);
-    			add_location(span4, file$1, 62, 30, 1222);
-    			attr_dev(div3, "class", "column is-2  svelte-9a7uol");
-    			add_location(div3, file$1, 62, 4, 1196);
-    			add_location(span5, file$1, 64, 6, 1338);
-    			add_location(span6, file$1, 65, 6, 1376);
-    			attr_dev(div4, "class", "column is-2 is-flex is-flex-direction-column svelte-9a7uol");
-    			add_location(div4, file$1, 63, 4, 1273);
-    			add_location(span7, file$1, 67, 30, 1448);
-    			attr_dev(div5, "class", "column is-2  svelte-9a7uol");
-    			add_location(div5, file$1, 67, 4, 1422);
+    			attr_dev(span0, "data-testid", "locationDesktop");
+    			add_location(span0, file$1, 60, 29, 997);
+    			attr_dev(div0, "class", "column is-2 svelte-m01kx3");
+    			add_location(div0, file$1, 60, 4, 972);
+    			add_location(span1, file$1, 62, 6, 1134);
+    			add_location(span2, file$1, 62, 32, 1160);
+    			attr_dev(div1, "class", "column is-2 is-flex is-flex-direction-column  svelte-m01kx3");
+    			add_location(div1, file$1, 61, 4, 1068);
+    			add_location(span3, file$1, 64, 30, 1231);
+    			attr_dev(div2, "class", "column is-2  svelte-m01kx3");
+    			add_location(div2, file$1, 64, 4, 1205);
+    			add_location(span4, file$1, 65, 30, 1299);
+    			attr_dev(div3, "class", "column is-2  svelte-m01kx3");
+    			add_location(div3, file$1, 65, 4, 1273);
+    			add_location(span5, file$1, 67, 6, 1415);
+    			add_location(span6, file$1, 68, 6, 1453);
+    			attr_dev(div4, "class", "column is-2 is-flex is-flex-direction-column svelte-m01kx3");
+    			add_location(div4, file$1, 66, 4, 1350);
+    			add_location(span7, file$1, 70, 30, 1525);
+    			attr_dev(div5, "class", "column is-2  svelte-m01kx3");
+    			add_location(div5, file$1, 70, 4, 1499);
     			attr_dev(div6, "class", "columns");
-    			add_location(div6, file$1, 56, 2, 899);
-    			attr_dev(div7, "class", div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-9a7uol");
-    			add_location(div7, file$1, 55, 0, 815);
-    			add_location(span8, file$1, 72, 25, 1590);
+    			add_location(div6, file$1, 59, 2, 946);
+    			attr_dev(div7, "class", div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-m01kx3");
+    			attr_dev(div7, "data-testid", "measurementDesktop");
+    			add_location(div7, file$1, 56, 0, 825);
+    			attr_dev(span8, "data-testid", "locationMobile");
+    			add_location(span8, file$1, 75, 25, 1699);
     			attr_dev(div8, "class", "is-size-4");
-    			add_location(div8, file$1, 72, 2, 1567);
+    			add_location(div8, file$1, 75, 2, 1676);
     			attr_dev(div9, "class", "is-size-5");
-    			add_location(div9, file$1, 73, 2, 1629);
+    			add_location(div9, file$1, 76, 2, 1767);
     			attr_dev(div10, "class", "is-size-6");
-    			add_location(div10, file$1, 74, 2, 1694);
+    			add_location(div10, file$1, 77, 2, 1832);
     			attr_dev(div11, "class", "is-size-6");
-    			add_location(div11, file$1, 75, 2, 1773);
+    			add_location(div11, file$1, 78, 2, 1911);
     			attr_dev(div12, "class", "is-size-6");
-    			add_location(div12, file$1, 80, 2, 1878);
-    			attr_dev(div13, "class", div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-9a7uol");
-    			add_location(div13, file$1, 71, 0, 1505);
+    			add_location(div12, file$1, 83, 2, 2016);
+    			attr_dev(div13, "class", div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-m01kx3");
+    			attr_dev(div13, "data-testid", "measurementMobile");
+    			add_location(div13, file$1, 74, 0, 1582);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -9955,7 +9959,7 @@ var app = (function () {
     			if (dirty & /*result*/ 1 && t12_value !== (t12_value = /*result*/ ctx[0].latitude + "")) set_data_dev(t12, t12_value);
     			if (dirty & /*result*/ 1 && t14_value !== (t14_value = /*result*/ ctx[0].lastUpdated + "")) set_data_dev(t14, t14_value);
 
-    			if (dirty & /*result*/ 1 && div7_class_value !== (div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-9a7uol")) {
+    			if (dirty & /*result*/ 1 && div7_class_value !== (div7_class_value = "container hidden-mobile index" + /*result*/ ctx[0].qualityIndex + " desktopContainer" + " svelte-m01kx3")) {
     				attr_dev(div7, "class", div7_class_value);
     			}
 
@@ -9969,7 +9973,7 @@ var app = (function () {
     			if (dirty & /*result*/ 1 && t30_value !== (t30_value = /*result*/ ctx[0].latitude + "")) set_data_dev(t30, t30_value);
     			if (dirty & /*result*/ 1 && t33_value !== (t33_value = /*result*/ ctx[0].lastUpdated + "")) set_data_dev(t33, t33_value);
 
-    			if (dirty & /*result*/ 1 && div13_class_value !== (div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-9a7uol")) {
+    			if (dirty & /*result*/ 1 && div13_class_value !== (div13_class_value = "box hidden-desktop index" + /*result*/ ctx[0].qualityIndex + " svelte-m01kx3")) {
     				attr_dev(div13, "class", div13_class_value);
     			}
     		},
@@ -9996,6 +10000,7 @@ var app = (function () {
     function instance$3($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Measurement", slots, []);
+    	
     	let { result } = $$props;
     	const writable_props = ["result"];
 
@@ -10132,26 +10137,25 @@ var app = (function () {
     }
 
     function debounceInput(node) {
-        let val = '';
+        let val = "";
         let timer;
-        const debounce = v => {
+        const debounce = (v) => {
             clearTimeout(timer);
             timer = setTimeout(() => {
                 val = v;
-                node.dispatchEvent(new CustomEvent('newvalue', {
-                    detail: val
+                node.dispatchEvent(new CustomEvent("newvalue", {
+                    detail: val,
                 }));
             }, 250);
         };
         function handleInput(event) {
-            console.log("handle input");
             debounce(event.target.value);
         }
-        node.addEventListener('input', handleInput);
+        node.addEventListener("input", handleInput);
         return {
             destroy() {
-                node.removeEventListener('input', handleInput);
-            }
+                node.removeEventListener("input", handleInput);
+            },
         };
     }
 
@@ -12958,58 +12962,69 @@ var app = (function () {
         longitude
       }
     }
-  }`;
+  }
+`;
     const LOCATION_RESULTS_CITY = src `
-query($city: String!, $after: String!) {
-  measurementsByCity(city: $city, take: 7, after: $after) {
-    _id
-    location
-    city
-    country {
-      name
-    }
-    measurements {
-      parameter
-      value
-      lastUpdated
-      unit
-      qualityIndex
-    }
-    coordinates {
-      latitude
-      longitude
-    }
-  }
-}`;
-    const LOCATION_RESULTS_COUNTRY = src `
-query($country: String!, $after: String!) {
-  measurementsByCountry(country: $country, take: 7, after: $after) {
-    _id
-    location
-    city
-    country {
-      name
-    }
-    measurements {
-      parameter
-      value
-      lastUpdated
-      unit
-      qualityIndex
-    }
-    coordinates {
-      latitude
-      longitude
-    }
-  }
-}`;
-    const CITIES_STARTWITH = src `
-    query($searchString: String!) {
-      citiesStartsWith(searchString: $searchString) {
+  query($city: String!, $after: String!) {
+    measurementsByCity(city: $city, take: 7, after: $after) {
+      _id
+      location
+      city
+      country {
         name
       }
+      measurements {
+        parameter
+        value
+        lastUpdated
+        unit
+        qualityIndex
+      }
+      coordinates {
+        latitude
+        longitude
+      }
     }
-  `;
+  }
+`;
+    const LOCATION_RESULTS_COUNTRY = src `
+  query($country: String!, $after: String!) {
+    measurementsByCountry(country: $country, take: 7, after: $after) {
+      _id
+      location
+      city
+      country {
+        name
+      }
+      measurements {
+        parameter
+        value
+        lastUpdated
+        unit
+        qualityIndex
+      }
+      coordinates {
+        latitude
+        longitude
+      }
+    }
+  }
+`;
+    const CITIES_STARTWITH = src `
+  query($searchString: String!) {
+    citiesStartsWith(searchString: $searchString) {
+      name
+    }
+  }
+`;
+    const COUNTRIES = src `
+  query {
+    countries {
+      name
+      code
+    }
+  }
+`;
 
     /* src/components/Measurements/Filter/FilterCities.svelte generated by Svelte v3.31.0 */
     const file$3 = "src/components/Measurements/Filter/FilterCities.svelte";
@@ -13017,6 +13032,7 @@ query($country: String!, $after: String!) {
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[14] = list[i];
+    	child_ctx[16] = i;
     	return child_ctx;
     }
 
@@ -13176,7 +13192,7 @@ query($country: String!, $after: String!) {
     	return block;
     }
 
-    // (112:8) {:else}
+    // (113:8) {:else}
     function create_else_block_1(ctx) {
     	let div;
 
@@ -13185,7 +13201,7 @@ query($country: String!, $after: String!) {
     			div = element("div");
     			div.textContent = "No cities found";
     			attr_dev(div, "class", "dropdown-item");
-    			add_location(div, file$3, 112, 10, 3233);
+    			add_location(div, file$3, 113, 10, 3272);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13199,19 +13215,20 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(112:8) {:else}",
+    		source: "(113:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (106:8) {#each queryCities as result}
+    // (106:8) {#each queryCities as result, i}
     function create_each_block(ctx) {
     	let div;
     	let t0_value = /*result*/ ctx[14].name + "";
     	let t0;
     	let t1;
+    	let div_data_testid_value;
     	let mounted;
     	let dispose;
 
@@ -13224,8 +13241,9 @@ query($country: String!, $after: String!) {
     			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
+    			attr_dev(div, "data-testid", div_data_testid_value = "city" + /*i*/ ctx[16]);
     			attr_dev(div, "class", "dropdown-item selectable svelte-uptilp");
-    			add_location(div, file$3, 106, 10, 3065);
+    			add_location(div, file$3, 106, 10, 3070);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13252,7 +13270,7 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(106:8) {#each queryCities as result}",
+    		source: "(106:8) {#each queryCities as result, i}",
     		ctx
     	});
 
@@ -13296,24 +13314,24 @@ query($country: String!, $after: String!) {
     			attr_dev(input, "class", "input citiesInput svelte-uptilp");
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", /*placeholder*/ ctx[6]);
-    			add_location(input, file$3, 81, 8, 2400);
+    			add_location(input, file$3, 81, 8, 2402);
     			attr_dev(div0, "class", "control");
-    			add_location(div0, file$3, 80, 6, 2370);
+    			add_location(div0, file$3, 80, 6, 2372);
     			attr_dev(div1, "class", "field");
-    			add_location(div1, file$3, 79, 4, 2344);
+    			add_location(div1, file$3, 79, 4, 2346);
     			attr_dev(div2, "class", "dropdown-trigger svelte-uptilp");
-    			add_location(div2, file$3, 78, 2, 2309);
+    			add_location(div2, file$3, 78, 2, 2311);
     			attr_dev(div3, "data-testid", "citiesDropdownContent");
     			attr_dev(div3, "class", "dropdown-content citiesInput svelte-uptilp");
-    			add_location(div3, file$3, 96, 4, 2801);
+    			add_location(div3, file$3, 96, 4, 2803);
     			attr_dev(div4, "class", "dropdown-menu");
     			attr_dev(div4, "id", "dropdown-menu3");
     			attr_dev(div4, "role", "menu");
-    			add_location(div4, file$3, 95, 2, 2737);
+    			add_location(div4, file$3, 95, 2, 2739);
     			attr_dev(div5, "data-testid", "filterCities");
     			attr_dev(div5, "class", "dropdown header");
     			toggle_class(div5, "is-active", /*showCities*/ ctx[0] && /*searchString*/ ctx[4] !== "");
-    			add_location(div5, file$3, 74, 0, 2192);
+    			add_location(div5, file$3, 74, 0, 2194);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -13552,17 +13570,16 @@ query($country: String!, $after: String!) {
     }
 
     /* src/components/Measurements/Filter/FilterCountries.svelte generated by Svelte v3.31.0 */
-
-    const { console: console_1 } = globals;
     const file$4 = "src/components/Measurements/Filter/FilterCountries.svelte";
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[12] = list[i];
+    	child_ctx[11] = list[i];
+    	child_ctx[13] = i;
     	return child_ctx;
     }
 
-    // (114:6) {:else}
+    // (104:6) {:else}
     function create_else_block$2(ctx) {
     	let each_1_anchor;
     	let each_value = /*queryCountries*/ ctx[4];
@@ -13649,33 +13666,30 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_else_block$2.name,
     		type: "else",
-    		source: "(114:6) {:else}",
+    		source: "(104:6) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (111:22) 
+    // (102:22) 
     function create_if_block_1$2(ctx) {
-    	let t0;
-    	let t1;
+    	let t_value = `Error loading countries: ${/*error*/ ctx[2].message}` + "";
+    	let t;
 
     	const block = {
     		c: function create() {
-    			t0 = text("Error loading countries:\n        ");
-    			t1 = text(/*error*/ ctx[2]);
+    			t = text(t_value);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
-    			insert_dev(target, t1, anchor);
+    			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*error*/ 4) set_data_dev(t1, /*error*/ ctx[2]);
+    			if (dirty & /*error*/ 4 && t_value !== (t_value = `Error loading countries: ${/*error*/ ctx[2].message}` + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(t);
     		}
     	};
 
@@ -13683,14 +13697,14 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_if_block_1$2.name,
     		type: "if",
-    		source: "(111:22) ",
+    		source: "(102:22) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (109:6) {#if loading}
+    // (100:6) {#if loading}
     function create_if_block$2(ctx) {
     	let t;
 
@@ -13711,14 +13725,14 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(109:6) {#if loading}",
+    		source: "(100:6) {#if loading}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (119:8) {:else}
+    // (112:8) {:else}
     function create_else_block_1$1(ctx) {
     	let div;
 
@@ -13727,7 +13741,7 @@ query($country: String!, $after: String!) {
     			div = element("div");
     			div.textContent = "No countries found";
     			attr_dev(div, "class", "dropdown-item");
-    			add_location(div, file$4, 119, 10, 3334);
+    			add_location(div, file$4, 112, 10, 3332);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13741,24 +13755,25 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_else_block_1$1.name,
     		type: "else",
-    		source: "(119:8) {:else}",
+    		source: "(112:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (115:8) {#each queryCountries as result}
+    // (105:8) {#each queryCountries as result, i}
     function create_each_block$1(ctx) {
     	let div;
-    	let t0_value = /*result*/ ctx[12].name + "";
+    	let t0_value = /*result*/ ctx[11].name + "";
     	let t0;
     	let t1;
+    	let div_data_testid_value;
     	let mounted;
     	let dispose;
 
     	function click_handler_1() {
-    		return /*click_handler_1*/ ctx[7](/*result*/ ctx[12]);
+    		return /*click_handler_1*/ ctx[7](/*result*/ ctx[11]);
     	}
 
     	const block = {
@@ -13766,8 +13781,9 @@ query($country: String!, $after: String!) {
     			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(div, "class", "dropdown-item selectable svelte-1jvq9hg");
-    			add_location(div, file$4, 115, 10, 3194);
+    			attr_dev(div, "class", "dropdown-item selectable svelte-2j6t0y");
+    			attr_dev(div, "data-testid", div_data_testid_value = "country" + /*i*/ ctx[13]);
+    			add_location(div, file$4, 105, 10, 3131);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -13781,7 +13797,7 @@ query($country: String!, $after: String!) {
     		},
     		p: function update(new_ctx, dirty) {
     			ctx = new_ctx;
-    			if (dirty & /*queryCountries*/ 16 && t0_value !== (t0_value = /*result*/ ctx[12].name + "")) set_data_dev(t0, t0_value);
+    			if (dirty & /*queryCountries*/ 16 && t0_value !== (t0_value = /*result*/ ctx[11].name + "")) set_data_dev(t0, t0_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
@@ -13794,7 +13810,7 @@ query($country: String!, $after: String!) {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(115:8) {#each queryCountries as result}",
+    		source: "(105:8) {#each queryCountries as result, i}",
     		ctx
     	});
 
@@ -13840,28 +13856,31 @@ query($country: String!, $after: String!) {
     			div2 = element("div");
     			div1 = element("div");
     			if_block.c();
-    			attr_dev(span0, "class", "countrySelectLabel svelte-1jvq9hg");
-    			add_location(span0, file$4, 100, 6, 2725);
+    			attr_dev(span0, "class", "countrySelectLabel svelte-2j6t0y");
+    			add_location(span0, file$4, 91, 6, 2615);
     			attr_dev(i, "class", "fas fa-angle-down");
     			attr_dev(i, "aria-hidden", "true");
-    			add_location(i, file$4, 102, 8, 2824);
+    			add_location(i, file$4, 93, 8, 2714);
     			attr_dev(span1, "class", "icon is-small");
-    			add_location(span1, file$4, 101, 6, 2787);
-    			attr_dev(button, "class", "button is-link svelte-1jvq9hg");
+    			add_location(span1, file$4, 92, 6, 2677);
+    			attr_dev(button, "class", "button is-link svelte-2j6t0y");
     			attr_dev(button, "aria-haspopup", "true");
     			attr_dev(button, "aria-controls", "dropdown-menu-countries");
-    			add_location(button, file$4, 93, 4, 2535);
-    			attr_dev(div0, "class", "dropdown-trigger svelte-1jvq9hg");
-    			add_location(div0, file$4, 92, 2, 2500);
-    			attr_dev(div1, "class", "dropdown-content svelte-1jvq9hg");
-    			add_location(div1, file$4, 107, 4, 2987);
+    			attr_dev(button, "data-testid", "filterCountriesButton");
+    			add_location(button, file$4, 83, 4, 2383);
+    			attr_dev(div0, "class", "dropdown-trigger svelte-2j6t0y");
+    			add_location(div0, file$4, 82, 2, 2348);
+    			attr_dev(div1, "class", "dropdown-content svelte-2j6t0y");
+    			attr_dev(div1, "data-testid", "countriesDropdownContent");
+    			add_location(div1, file$4, 98, 4, 2877);
     			attr_dev(div2, "class", "dropdown-menu");
     			attr_dev(div2, "id", "dropdown-menu-countries");
     			attr_dev(div2, "role", "menu");
-    			add_location(div2, file$4, 106, 2, 2914);
+    			add_location(div2, file$4, 97, 2, 2804);
     			attr_dev(div3, "class", "dropdown header");
+    			attr_dev(div3, "data-testid", "filterCountries");
     			toggle_class(div3, "is-active", /*showCountries*/ ctx[1]);
-    			add_location(div3, file$4, 91, 0, 2436);
+    			add_location(div3, file$4, 78, 0, 2248);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -13965,21 +13984,13 @@ query($country: String!, $after: String!) {
     			});
     	};
 
+    	
     	let initialSelected = { name: "All", code: "xx" };
     	let selected = initialSelected;
     	let showCountries = false;
     	let error;
     	let loading;
     	let queryCountries = [];
-
-    	const COUNTRIES = src`
-    query {
-      countries {
-        name
-        code
-      }
-    }
-  `;
 
     	function select(result) {
     		$$invalidate(0, selected = result);
@@ -13990,12 +14001,12 @@ query($country: String!, $after: String!) {
     	function fetchCountries() {
     		return __awaiter(this, void 0, void 0, function* () {
     			try {
+    				$$invalidate(3, loading = true);
     				const countriesResult = query(client, { query: COUNTRIES });
     				let res = yield countriesResult.result();
-    				$$invalidate(4, queryCountries = res.data.countries);
+    				$$invalidate(4, queryCountries = [initialSelected, ...res.data.countries]);
     			} catch(e) {
     				$$invalidate(2, error = e);
-    				throw e;
     			}
 
     			$$invalidate(3, loading = false);
@@ -14003,14 +14014,8 @@ query($country: String!, $after: String!) {
     	}
 
     	onMount(() => __awaiter(void 0, void 0, void 0, function* () {
-    		console.log("mount");
     		yield fetchCountries();
-    		queryCountries.unshift(initialSelected);
     	}));
-
-    	onDestroy(() => {
-    		queryCountries.shift();
-    	});
 
     	filterStore.subscribe(f => {
     		if (f.key !== "country") {
@@ -14021,7 +14026,7 @@ query($country: String!, $after: String!) {
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<FilterCountries> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<FilterCountries> was created with unknown prop '${key}'`);
     	});
 
     	const click_handler = () => {
@@ -14033,19 +14038,17 @@ query($country: String!, $after: String!) {
     	$$self.$capture_state = () => ({
     		__awaiter,
     		onMount,
-    		onDestroy,
-    		gql: src,
     		client,
     		query,
     		filterStore,
     		filterDefault,
+    		COUNTRIES,
     		initialSelected,
     		selected,
     		showCountries,
     		error,
     		loading,
     		queryCountries,
-    		COUNTRIES,
     		select,
     		fetchCountries
     	});
@@ -14103,9 +14106,9 @@ query($country: String!, $after: String!) {
     			span = element("span");
     			i = element("i");
     			attr_dev(i, "class", "fas fa-chevron-down");
-    			add_location(i, file$5, 44, 57, 992);
+    			add_location(i, file$5, 44, 57, 1025);
     			attr_dev(span, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span, file$5, 44, 6, 941);
+    			add_location(span, file$5, 44, 6, 974);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -14137,9 +14140,9 @@ query($country: String!, $after: String!) {
     			span = element("span");
     			i = element("i");
     			attr_dev(i, "class", "fas fa-chevron-up");
-    			add_location(i, file$5, 41, 8, 877);
+    			add_location(i, file$5, 41, 8, 910);
     			attr_dev(span, "class", "icon is-small has-text-link sortIcon");
-    			add_location(span, file$5, 40, 6, 817);
+    			add_location(span, file$5, 40, 6, 850);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -14192,15 +14195,15 @@ query($country: String!, $after: String!) {
     			t4 = space();
     			create_component(filtercities.$$.fragment);
     			attr_dev(span0, "class", "is-size-6 header svelte-bqdabj");
-    			add_location(span0, file$5, 51, 8, 1233);
+    			add_location(span0, file$5, 51, 8, 1266);
     			attr_dev(div0, "class", "header is-flex is-flex-direction-column svelte-bqdabj");
-    			add_location(div0, file$5, 50, 6, 1171);
+    			add_location(div0, file$5, 50, 6, 1204);
     			attr_dev(span1, "class", "is-size-6 header svelte-bqdabj");
-    			add_location(span1, file$5, 55, 8, 1388);
+    			add_location(span1, file$5, 55, 8, 1421);
     			attr_dev(div1, "class", "header is-flex is-flex-direction-column svelte-bqdabj");
-    			add_location(div1, file$5, 54, 6, 1326);
+    			add_location(div1, file$5, 54, 6, 1359);
     			attr_dev(div2, "class", "filters is-flex is-flex-wrap-wrap is-justify-content-space-around svelte-bqdabj");
-    			add_location(div2, file$5, 49, 4, 1085);
+    			add_location(div2, file$5, 49, 4, 1118);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -14274,8 +14277,9 @@ query($country: String!, $after: String!) {
     			t2 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(div0, "class", "headerText svelte-bqdabj");
-    			add_location(div0, file$5, 38, 4, 750);
+    			add_location(div0, file$5, 38, 4, 783);
     			attr_dev(div1, "class", "headerField svelte-bqdabj");
+    			attr_dev(div1, "data-testid", "filterMobileToggle");
     			add_location(div1, file$5, 37, 2, 692);
     			attr_dev(div2, "data-testid", "filterMobile");
     			attr_dev(div2, "class", "box is-flex is-flex-direction-column svelte-bqdabj");
@@ -15414,7 +15418,7 @@ query($country: String!, $after: String!) {
 
     /* src/components/Measurements/MeasurementsList.svelte generated by Svelte v3.31.0 */
 
-    const { console: console_1$1, window: window_1 } = globals;
+    const { console: console_1, window: window_1 } = globals;
 
     const file$9 = "src/components/Measurements/MeasurementsList.svelte";
 
@@ -16023,7 +16027,7 @@ query($country: String!, $after: String!) {
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn(`<MeasurementsList> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn(`<MeasurementsList> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$capture_state = () => ({
@@ -16121,16 +16125,17 @@ query($country: String!, $after: String!) {
     			t6 = space();
     			create_component(filtercities.$$.fragment);
     			attr_dev(span0, "class", "is-size-5 header svelte-16738s0");
-    			add_location(span0, file$a, 22, 4, 496);
+    			add_location(span0, file$a, 22, 4, 524);
     			attr_dev(span1, "class", "is-size-6 header svelte-16738s0");
-    			add_location(span1, file$a, 23, 4, 548);
+    			add_location(span1, file$a, 23, 4, 576);
     			attr_dev(div0, "class", "header is-flex is-flex-direction-column svelte-16738s0");
-    			add_location(div0, file$a, 21, 2, 438);
+    			add_location(div0, file$a, 21, 2, 466);
     			attr_dev(span2, "class", "is-size-6 header svelte-16738s0");
-    			add_location(span2, file$a, 27, 4, 687);
+    			add_location(span2, file$a, 27, 4, 715);
     			attr_dev(div1, "class", "header is-flex is-flex-direction-column svelte-16738s0");
-    			add_location(div1, file$a, 26, 2, 629);
+    			add_location(div1, file$a, 26, 2, 657);
     			attr_dev(div2, "class", "box is-flex is-flex-direction-column is-hidden-mobile svelte-16738s0");
+    			attr_dev(div2, "data-testid", "filterDesktop");
     			add_location(div2, file$a, 20, 0, 368);
     		},
     		l: function claim(nodes) {
@@ -16328,7 +16333,7 @@ query($country: String!, $after: String!) {
 
     /* src/components/Nav/Burger.svelte generated by Svelte v3.31.0 */
 
-    const { console: console_1$2 } = globals;
+    const { console: console_1$1 } = globals;
     const file$c = "src/components/Nav/Burger.svelte";
 
     function create_fragment$e(ctx) {
@@ -16428,7 +16433,7 @@ query($country: String!, $after: String!) {
     	const writable_props = ["openened"];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$2.warn(`<Burger> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn(`<Burger> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$$set = $$props => {
@@ -18477,7 +18482,7 @@ query($country: String!, $after: String!) {
 
     /* src/App.svelte generated by Svelte v3.31.0 */
 
-    const { console: console_1$3 } = globals;
+    const { console: console_1$2 } = globals;
     const file$i = "src/App.svelte";
 
     // (65:3) <Route path="/">
@@ -18940,7 +18945,7 @@ query($country: String!, $after: String!) {
     	const writable_props = ["url"];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$3.warn(`<App> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$2.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
     	$$self.$$set = $$props => {

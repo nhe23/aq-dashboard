@@ -1,10 +1,10 @@
 import fetchMock from "jest-fetch-mock";
 import { mocked } from "ts-jest/utils";
 import { query } from "svelte-apollo";
+import { filterStore, IFilter } from "../../../store";
 
 import FilterCities from "./FilterCities.svelte";
 import { render, fireEvent } from "@testing-library/svelte";
-import { resolveFieldValueOrError } from "graphql/execution/execute";
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -13,23 +13,29 @@ function sleep(ms) {
 jest.mock("svelte-apollo");
 const mockedQuery = mocked(query, true);
 
+const cityName = "Paris";
+
+mockedQuery.mockReturnValue({
+  // @ts-ignore
+  result: () => {
+    return {
+      data: {
+        citiesStartsWith: [
+          {
+            name: cityName,
+          },
+        ],
+      },
+    };
+  },
+});
+
 beforeAll(() => {
   fetchMock.enableMocks();
 });
 
-it("should render filter and sort components", async () => {
-  // @ts-ignore
-  mockedQuery.mockReturnValue({result: () => {
-      return {
-        data: {
-          citiesStartsWith: [{
-            name: "Paris",
-          }],
-        },
-      };
-    },
-  });
-  const { getByTestId, component } = render(FilterCities);
+it("should fetch data on input change", async () => {
+  const { getByTestId } = render(FilterCities);
   let filterCities = getByTestId("filterCities");
   const input = getByTestId("searchCities");
   expect(
@@ -41,8 +47,31 @@ it("should render filter and sort components", async () => {
 
   //Sleep because input is debounced
   await sleep(1000);
-  let firstChild = filterCities.firstChild as HTMLElement;
   expect(mockedQuery).toHaveBeenCalled();
 });
 
-it("should dispatch sort event", async () => {});
+it("should write in svelte store on select", async () => {
+  const { getByTestId } = render(FilterCities);
+  const filterCities = getByTestId("filterCities");
+  const input = getByTestId("searchCities") as HTMLInputElement;
+
+  await fireEvent.focus(input);
+  await fireEvent.input(input, { target: { value: "Par" } });
+
+  //Sleep because input is debounced
+  await sleep(1000);
+
+  const city = filterCities.querySelector('div[data-testid="city0"]');
+  await fireEvent.click(city);
+  let store: IFilter;
+  filterStore.subscribe((f) => {
+    store = f;
+  });
+  expect(store.key).toEqual("city");
+  expect(store.value).toEqual(cityName);
+
+  filterStore.set({key:"country", value:"FR"})
+  await sleep(1000);
+  expect(input.value).toEqual("")
+});
+
