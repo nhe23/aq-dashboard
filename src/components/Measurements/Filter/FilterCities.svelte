@@ -23,11 +23,9 @@
     inputValue = result.name;
     filterStore.set({ key: "city", value: inputValue });
     showCities = false;
-    console.log(queryCities);
     queryCities = queryCities.filter((c) =>
       c.name.toLowerCase().startsWith(inputValue.toLowerCase())
     );
-    console.log(queryCities);
   }
 
   async function fetchCities(searchString: string) {
