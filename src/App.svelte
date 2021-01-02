@@ -25,7 +25,6 @@
 	};
 
 	const handleScroll = async (e) => {
-		console.log("handleScroll");
 		scrollTop = document.documentElement.scrollTop;
 	};
 </script>

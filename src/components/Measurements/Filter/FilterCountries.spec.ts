@@ -53,7 +53,7 @@ it("should write in svelte store on select", async () => {
 
   await sleep(1000);
   const countryElement = getByTestId("country1");
-  await fireEvent.click(countryElement);
+  await fireEvent.mouseDown(countryElement);
   expect(button.firstChild.textContent).toEqual(country.name);
 
   let store: IFilter;
@@ -67,7 +67,7 @@ it("should write in svelte store on select", async () => {
   const placeholder = filterCountries.querySelector(
     'div[data-testid="country0"]'
   );
-  await fireEvent.click(placeholder);
+  await fireEvent.mouseDown(placeholder);
   expect(store.key).toEqual(filterDefault.key);
 
   filterStore.set({key:"city", value:"Paris"})

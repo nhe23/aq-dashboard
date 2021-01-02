@@ -62,7 +62,7 @@ it("should write in svelte store on select", async () => {
   await sleep(1000);
 
   const city = filterCities.querySelector('div[data-testid="city0"]');
-  await fireEvent.click(city);
+  await fireEvent.mouseDown(city);
   let store: IFilter;
   filterStore.subscribe((f) => {
     store = f;

@@ -24,6 +24,7 @@
     try {
       if (locResults.length === 0) {
         reachedEndResult = true;
+        loading = false;
         return;
       }
       let newResults: any[] = [];
@@ -119,6 +120,7 @@
   };
 
   async function fetchResults(filter: IFilter) {
+    console.log("fetch")
     let locationResultsQuery: any;
     let locationResults: Array<LocationResults>;
     let res: any;

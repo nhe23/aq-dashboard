@@ -27,13 +27,19 @@
   .headerField {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    cursor:pointer;   
   }
 
   .filters{
     border-top:1px solid #dddddd;
     margin-top:15px;
     padding-top:15px;
+  }
+
+  .filterColumn{
+    flex: 1 1 0px;
+    padding: 10px;
   }
 </style>
 
@@ -51,11 +57,11 @@
   </div>
   {#if showFilter}
     <div class="filters is-flex is-flex-wrap-wrap is-justify-content-space-around">
-      <div class="header is-flex is-flex-direction-column">
+      <div class="header is-flex is-flex-direction-column filterColumn">
         <span class="is-size-6 header">Country</span>
         <FilterCountries />
       </div>
-      <div class="header is-flex is-flex-direction-column">
+      <div class="header is-flex is-flex-direction-column filterColumn">
         <span class="is-size-6 header">City</span>
         <FilterCities />
       </div>

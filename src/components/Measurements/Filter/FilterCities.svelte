@@ -11,18 +11,23 @@
   let error: Error;
   let loading = false;
   let queryCities: Array<CitiesResult> = [];
-  let searchString = "a";
-  let inputValue: string;
+  let searchString = "";
+  let inputValue = "";
 
   async function handleNewValue(e) {
     searchString = e.detail;
     await fetchCities(searchString);
   }
 
-  function select(e: Event, result:CitiesResult) {
+  function select(e: Event, result: CitiesResult) {
     inputValue = result.name;
     filterStore.set({ key: "city", value: inputValue });
     showCities = false;
+    console.log(queryCities);
+    queryCities = queryCities.filter((c) =>
+      c.name.toLowerCase().startsWith(inputValue.toLowerCase())
+    );
+    console.log(queryCities);
   }
 
   async function fetchCities(searchString: string) {
@@ -43,6 +48,9 @@
     if (f.key !== "city") {
       inputValue = "";
       searchString = "";
+    } else if (searchString === "" || inputValue === "") {
+      inputValue = f.value;
+      searchString = f.value;
     }
   });
 </script>
@@ -62,6 +70,15 @@
   input {
     background-color: transparent;
   }
+
+  .dropdown-content {
+    max-height: 250px;
+    overflow-y: scroll;
+  }
+
+  .header {
+    min-width: 200px;
+  }
 </style>
 
 <div
@@ -73,12 +90,15 @@
       <div class="control">
         <input
           data-testid="searchCities"
-          on:focus={() => {
-            showCities = true;
-          }}
           use:debounceInput
           class="input citiesInput"
           type="text"
+          on:focus={() => {
+            showCities = true;
+          }}
+          on:blur={() => {
+            showCities = false;
+          }}
           {placeholder}
           on:newvalue={handleNewValue}
           bind:value={inputValue} />
@@ -99,7 +119,7 @@
           <div
             data-testid="city{i}"
             class="dropdown-item selectable"
-            on:click={(e) => select(e, result)}>
+            on:mousedown={(e) => select(e, result)}>
             {result.name}
           </div>
         {:else}

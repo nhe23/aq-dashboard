@@ -12,7 +12,7 @@
 
   let error: Error;
   let loading: boolean;
-  let queryCountries = [];
+  let queryCountries: Array<Country> = [];
 
   function select(result: Country) {
     selected = result;
@@ -24,7 +24,7 @@
 
   async function fetchCountries() {
     try {
-      loading=true;
+      loading = true;
       const countriesResult = query(client, {
         query: COUNTRIES,
       });
@@ -43,6 +43,8 @@
   filterStore.subscribe((f) => {
     if (f.key !== "country") {
       selected = initialSelected;
+    } else if (selected.name === initialSelected.name) {
+      selected.name = queryCountries.find((c) => c.code === f.value).name;
     }
   });
 </script>
@@ -65,8 +67,11 @@
   }
 
   .countrySelectLabel {
-    width: 190px;
     overflow: hidden;
+  }
+
+  .header {
+    min-width: 200px;
   }
 </style>
 
@@ -82,6 +87,9 @@
       data-testid="filterCountriesButton"
       on:click={() => {
         showCountries = !showCountries;
+      }}
+      on:blur={() => {
+        showCountries = false;
       }}>
       <span class="countrySelectLabel">{selected.name}</span>
       <span class="icon is-small">
@@ -99,7 +107,7 @@
         {#each queryCountries as result, i}
           <div
             class="dropdown-item selectable"
-            on:click={() => select(result)}
+            on:mousedown={() => select(result)}
             data-testid="country{i}">
             {result.name}
           </div>
