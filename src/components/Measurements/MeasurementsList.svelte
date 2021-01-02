@@ -1,7 +1,6 @@
 <script lang="ts">
   import { client } from "../../apollo";
   import { query } from "svelte-apollo";
-  import { onMount } from "svelte";
   import { measurementsColumns } from "./Header/columns";
   import Measurement from "./Measurement.svelte";
   import MeasurementsHeader from "./Header/Header.svelte";
@@ -12,25 +11,16 @@
     LOCATION_RESULTS_CITY,
     LOCATION_RESULTS_COUNTRY,
   } from "./queries";
+  import type { LocationResults } from "../../types";
 
-  // let results: Array<any> = [];
   let error: Error;
   let loading = false;
   let after = "";
   let fetching = false;
   let reachedEndResult = false;
-
-
-  // restore(client, AUTHOR_LIST, authorCache.data);
-
   let results = [];
 
-  function scrollTop() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0;
-  }
-
-  function parseResults(locResults) {
+  function parseResults(locResults:Array<LocationResults>) {
     try {
       if (locResults.length === 0) {
         reachedEndResult = true;
@@ -61,7 +51,6 @@
       after = newResults[newResults.length - 1]._id;
     } catch (e) {
       error = e;
-      throw e;
     }
     loading = false;
   }
@@ -81,7 +70,6 @@
 
   const sortByKey = (event: any) => {
     const key = event.detail.key;
-    console.log(key);
     let sortedDesc: boolean;
     for (let i = 0; i < measurementsColumns.length; i++) {
       let found = false;
@@ -132,13 +120,11 @@
 
   async function fetchResults(filter: IFilter) {
     let locationResultsQuery: any;
-    let locationResults: any;
+    let locationResults: Array<LocationResults>;
     let res: any;
 
     switch (filter.key) {
       case "country":
-        console.log("country");
-        console.log(filter.value);
         locationResultsQuery = query(client, {
           query: LOCATION_RESULTS_COUNTRY,
           variables: { country: filter.value, after },
@@ -147,7 +133,6 @@
         locationResults = res.data.measurementsByCountry;
         break;
       case "city":
-        console.log("city");
         locationResultsQuery = query(client, {
           query: LOCATION_RESULTS_CITY,
           variables: { city: filter.value, after },
@@ -156,7 +141,6 @@
         locationResults = res.data.measurementsByCity;
         break;
       default:
-        console.log("default");
         locationResultsQuery = query(client, {
           query: LOCATION_RESULTS,
           variables: { after },
@@ -168,7 +152,6 @@
   }
 
   filterStore.subscribe(async (filter) => {
-    console.log("new filter");
     results = [];
     loading = true;
     after = "";
@@ -182,7 +165,7 @@
 
 <svelte:window on:scroll={handleScroll} />
 
-<div class="container">
+<div class="container"  data-testid="measurementsContainer">
   <MeasurementsHeader {measurementsColumns} on:sort={sortByKey} />
   {#if loading}
     Loading...

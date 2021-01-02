@@ -45,3 +45,23 @@ export interface MeasurementResult {
   unit: string;
   qualityIndex: number;
 }
+
+export interface LocationResults {
+  _id: string;
+  location: string;
+  city: string;
+  country: {
+    name: string;
+  };
+  measurements: Array<{
+    parameter: string;
+    value: number;
+    lastUpdated: Date;
+    unit: string;
+    qualityIndex: number;
+  }>;
+  coordinates: {
+    latitude: number;
+    longitude: number;
+  };
+}

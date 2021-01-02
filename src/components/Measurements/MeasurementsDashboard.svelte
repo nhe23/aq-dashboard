@@ -15,7 +15,7 @@
   }
 </style>
 
-<section class="section">
+<section class="section" data-testid="measurementsDashboard">
   <div class="container">
     <div class="row">
       <div class="is-flex is-flex-direction-column side-column is-hidden-mobile">

@@ -4,7 +4,6 @@
 
   const toggleBurger = () => {
     openened = !openened;
-    console.log(openened);
   };
 
   onDestroy(() => {

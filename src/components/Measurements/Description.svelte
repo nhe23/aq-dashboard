@@ -5,7 +5,7 @@
   }
 </style>
 
-<div class="box description is-flex is-flex-direction-column">
+<div class="box description is-flex is-flex-direction-column" data-testid="measurementsDescription">
   <span class="icon is-small has-text-link">
     <i class="fas fa-info-circle" />
   </span>

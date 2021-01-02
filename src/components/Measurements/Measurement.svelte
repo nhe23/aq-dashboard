@@ -61,15 +61,15 @@
   <div class="columns">
     <div class="column is-2"><span data-testid="locationDesktop">{result.location}</span></div>
     <div class="column is-2 is-flex is-flex-direction-column ">
-      <span>{result.city}</span><span>{result.country}</span>
+      <span data-testid="cityDesktop">{result.city}</span><span data-testid="countryDesktop">{result.country}</span>
     </div>
     <div class="column is-2 "><span>{result.parameter}</span></div>
-    <div class="column is-2 "><span>{result.value}{result.unit}</span></div>
+    <div class="column is-2 "><span data-testid="valueDesktop">{result.value}{result.unit}</span></div>
     <div class="column is-2 is-flex is-flex-direction-column">
       <span>{result.longitude}</span>
       <span>{result.latitude}</span>
     </div>
-    <div class="column is-2 "><span>{result.lastUpdated}</span></div>
+    <div class="column is-2 "><span data-testid="updatedDesktop">{result.lastUpdated}</span></div>
   </div>
 </div>
 
