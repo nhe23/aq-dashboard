@@ -15,20 +15,6 @@ beforeAll(() => {
   fetchMock.enableMocks();
 });
 
-const result = {
-  _id: "1234",
-  country: "Tattoine",
-  location: "Cantina",
-  city: "Mos Eisley",
-  longitude: 1234,
-  latitude: 4312,
-  parameter: "speed",
-  value: 12,
-  lastUpdated: new Date(Date.now()),
-  unit: "parsec",
-  qualityIndex: 1,
-};
-
 let mockedQuery: any;
 jest.mock("svelte-apollo");
 mockedQuery = mocked(query, true);

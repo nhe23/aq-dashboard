@@ -34,7 +34,7 @@
   }
 </style>
 
-<div class="navigation">
+<div class="navigation" data-testid="navbar">
   <nav bind:clientWidth={w}>
     <div class="logo"><Link to="/"><img src="/AirPoll.svg" alt="logo" /></Link></div>
     {#if w < 600}

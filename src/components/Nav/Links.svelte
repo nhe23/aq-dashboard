@@ -44,6 +44,7 @@
 </style>
 
 <div
+  data-testid="navLinks"
   transition:slide={{ duration: showMobile ? 750 : 0 }}
   class:links={!showMobile}
   class:mobile={showMobile}

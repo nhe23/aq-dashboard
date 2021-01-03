@@ -1,5 +1,5 @@
+<!-- Root component -->
 <script lang="ts">
-	import ApolloClient from "apollo-client";
 	import { client } from "./apollo";
 	import { setClient } from "svelte-apollo";
 	import { Router, Link, Route } from "svelte-routing";

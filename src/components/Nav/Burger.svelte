@@ -62,7 +62,7 @@
   }
 </style>
 
-<div class="row">
+<div class="row" data-testid="navBurger">
   <input type="checkbox" id="hamburg" on:change={toggleBurger} />
   <label for="hamburg" class="hamburg">
     <span class="line" />

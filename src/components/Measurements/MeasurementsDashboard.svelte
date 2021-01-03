@@ -1,3 +1,4 @@
+<!-- Dashboard page -->
 <script lang="ts">
   import MeasurementsList from "./MeasurementsList.svelte";
   import FilterDesktop from "./Filter/FilterDesktop.svelte";

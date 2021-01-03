@@ -1,3 +1,4 @@
+<!-- Landing page -->
 <script lang="ts">
   import { fade } from "svelte/transition";
   import { navigate } from "svelte-routing";
@@ -39,7 +40,7 @@
   svg {
     margin: 20px;
   }
-  
+
   .primaryButton {
     background-color: var(--theme-secondary);
     color: var(--theme-textColorPrimary);

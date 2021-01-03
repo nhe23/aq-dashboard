@@ -10,6 +10,7 @@ module.exports = {
     "^.+\\.js$": "babel-jest"
   },
   moduleFileExtensions: ['js','ts', 'svelte'],
-  transformIgnorePatterns: ['/node_modules\/(?!apollo-link-http)(.*)']
-  // preset: 'ts-jest'
+  transformIgnorePatterns: [
+    "node_modules/(?!(svelte-routing|svelte-spa-router)/)"
+  ]
 }
