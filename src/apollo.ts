@@ -23,7 +23,8 @@ const cache = new InMemoryCache();
 // });
 
 const httpLink = new HttpLink({
-  uri: "http://localhost:8080/query",
+  // @ts-ignore
+  uri: __myapp.env.gqlBackend || "http://localhost:8080/query",
   headers: getHeaders()
 });
 
